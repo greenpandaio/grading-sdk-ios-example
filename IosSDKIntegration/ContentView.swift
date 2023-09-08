@@ -27,7 +27,7 @@ struct SDKView: UIViewControllerRepresentable {
     typealias UIViewControllerType = SDKViewController
     
     func makeUIViewController(context: Context) -> SDKViewController {
-        PandasGrading.shared.configure(imei:"353872860465041", environment : .staging ,colorConfig: nil,
+        PandasGrading.shared.configure(imei:nil, environment : .staging ,colorConfig: nil,
                                        fontConfig: nil,
                                        stringsURL: Bundle.main.url(forResource: "Strings-en", withExtension: "xml"),
                                        configURL: Bundle.main.url(forResource: "config", withExtension: "json"))

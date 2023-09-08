@@ -1,10 +1,8 @@
 {
     "partner": {
-        "name": "orange",
-        "flow": "orange",
-        "country": "gr",
-        "code": "orange",
-        "storeLocationsURL": "https://www.cosmote.gr/eshop/locateStores.jsp",
+        "name": "greenpanda",
+        "flow": "pandas",
+        "storeLocationsURL": "https://pandas.io/el-GR/map",
         "id": "eb7c5e49-a4af-4426-93e4-4d1dd800b9ad"
     },
     "assessments": [
@@ -16,15 +14,9 @@
         "front-camera",
         "back-camera"
     ],
-    "payment_options": {
-        "parts": false,
-        "payment_methods": ["cash", "voucher"],
-        "promo": true
-    },
-    "at_store_flow": false,
     "colors": { "primary": "#1A1A1A" },
     "email_submission": true,
-    "drop_off_options": ["AT_STORE","COURIER_AT_STORE"],
+    "drop_off_options": ["AT_STORE", "COURIER_AT_STORE"],
     "tutorial": true,
     "impact": true,
     "manifesto": true,
