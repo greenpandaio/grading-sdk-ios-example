@@ -45,7 +45,7 @@
     </browser_update>
     <start_page>
         <how_it_works>How it works</how_it_works>
-        <title></title>
+        <title>&lt;span&gt;Trade in.&lt;/span&gt;&lt;br /&gt;Save money.&lt;br /&gt;Do good.</title>
         <impact>Impact</impact>
         <more>More</more>
     </start_page>
@@ -609,7 +609,7 @@
         <button_action_2>Do you have promo code?</button_action_2>
         <button_voucher>Voucher up to </button_voucher>
         <button_cash>Cash Deposit up to </button_cash>
-        <final_price>The final price will be determined after the final evaluation of the device. &lt;strong&gt;You have 7 days to claim the offer&lt;/strong&gt;.</final_price>
+        <final_price>The final price will be determined after the final evaluation of the device. &lt;strong&gt;You have %@ days to claim the offer&lt;/strong&gt;.</final_price>
         <binding_offer>Need a final offer?</binding_offer>
         <device_new>Your device is &quot;Like New&quot;</device_new>
         <detailed_report>Detailed report</detailed_report>
@@ -639,7 +639,7 @@
         <info_submit>Submit</info_submit>
         <faulty>Faulty</faulty>
         <is_not_working>Is not working</is_not_working>
-        <evaluation_warning>Your offer remains valid for 7 days so that you can complete your trade in at store. If you wish to run a new round of diagnostic checks you can click below. The updated diagnostic results will override any previous ones.</evaluation_warning>
+        <evaluation_warning>Your offer remains valid for %@ days so that you can complete your trade in at store. If you wish to run a new round of diagnostic checks you can click below. The updated diagnostic results will override any previous ones.</evaluation_warning>
         <exit_evaluation>Retake Evaluation</exit_evaluation>
     </offer_page>
     <mirror_walkthrough_page>
@@ -723,12 +723,11 @@
         </option_courier_at_store>
         <option_at_store>
             <title>Drop off  @ Store</title>
-            <description>Drop off your device at the nearest Orange store and get a voucher instantly!</description>
+            <description>Drop off your device at the nearest %@ store and get a voucher instantly!</description>
         </option_at_store>
     </trade_option_page>
     <trade-in-pandas-kiosks-page>
         <title>Pandas kiosks</title>
-        <title_orange>Oranges stores</title_orange>
         <button_store>Continue @ Store</button_store>
     </trade-in-pandas-kiosks-page>
     <time_option>
@@ -830,7 +829,6 @@
     </thank_you_at_store_page>
     <thank_you_store_page>
         <title>Thank you!</title>
-        <description_orange>The final step is to visit an Orange store to complete your trade-in. Before you do, please make sure:</description_orange>
         <return_home>Return to Home screen</return_home>
     </thank_you_store_page>
     <signout_icloud_page>
@@ -968,4 +966,11 @@
         <device_motion>Amazing!</device_motion>
         <device_condition>Thanks</device_condition>
     </success_messages>
+    <personal_info_page>
+        <title>Personal info</title>
+        <description>Enter your personal info to continue</description>
+        <input_full_name>Full Name</input_full_name>
+        <input_email>E-mail</input_email>
+        <input_phone>Phone</input_phone>
+    </personal_info_page>
 </root>

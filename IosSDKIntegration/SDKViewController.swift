@@ -14,7 +14,7 @@ class SDKViewController: UIViewController {
         attributedString.append(secondPart)
     }
     override func viewDidAppear(_ animated: Bool) {
-        PandasGrading.shared.startGrading(navigationController: gradingNavigationController)
+        PandasGrading.shared.startGrading(navigationController: gradingNavigationController,  gradingFlow: .home)
         gradingNavigationController.modalPresentationStyle = .overFullScreen
         present(gradingNavigationController, animated: true)
     }
@@ -26,7 +26,7 @@ class SDKViewController: UIViewController {
     var gradingNavigationController = GradingNavigationViewController()
     
     @IBAction func didTouchStartGradingButton(_ sender: Any) {
-        PandasGrading.shared.startGrading(navigationController: gradingNavigationController)
+        PandasGrading.shared.startGrading(navigationController: gradingNavigationController, gradingFlow: .home)
         gradingNavigationController.modalPresentationStyle = .overFullScreen
         present(gradingNavigationController, animated: true)
     }
