@@ -6,43 +6,45 @@
 //
 
 import SwiftUI
-import PandasGradingSDK;
-struct ContentView: View {
-        @State var isPresented = false
-        
-        var body: some View {
-            Button("Start Pandas Grading SDK") {
-                isPresented = true
-            }
-            .sheet(isPresented: $isPresented) {
-                SDKView()
-                    .ignoresSafeArea()
+import PandasGradingSDK
 
-            }
+struct ContentView: View {
+    @Binding var isPresented: Bool
+    @Binding var sessionId: String?
+    @Binding var gradingFlow: GradingFlow!
+    
+    var body: some View {
+        Button("Start Pandas Grading SDK") {
+            isPresented = true
+        }
+        .fullScreenCover(isPresented: $isPresented) {
+            SDKView(flow: gradingFlow,
+                    sessionId: sessionId)
+            .ignoresSafeArea()
             
         }
-    }
-
-struct SDKView: UIViewControllerRepresentable {
-    typealias UIViewControllerType = SDKViewController
-    
-    func makeUIViewController(context: Context) -> SDKViewController {
-        PandasGrading.shared.configure(imei:nil, environment : .staging ,colorConfig: nil,
-                                       fontConfig: nil,
-                                       stringsURL: Bundle.main.url(forResource: "Strings-en", withExtension: "xml"),
-                                       configURL: Bundle.main.url(forResource: "config", withExtension: "json"))
-
-        let vc = SDKViewController()
-        return vc
-    }
-    
-    func updateUIViewController(_ uiViewController: SDKViewController, context: Context) {
-        // Updates the state of the specified view controller with new information from SwiftUI.
+        
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+struct SDKView: UIViewControllerRepresentable {
+    
+    var flow: GradingFlow!
+    var sessionId: String?
+    
+    func makeUIViewController(context: Context) -> UINavigationController {
+
+        let gradingNavigationController = GradingNavigationViewController()
+
+        PandasGrading.shared.startGrading(navigationController: gradingNavigationController,
+                                          gradingFlow: flow,
+                                          sessionId: sessionId)
+        gradingNavigationController.modalPresentationStyle = .overFullScreen
+
+        return gradingNavigationController
+    }
+
+    func updateUIViewController(_ uiViewController: UINavigationController, context: Context) {
+        // Update the view controller if needed
     }
 }
