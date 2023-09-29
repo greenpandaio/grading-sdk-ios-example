@@ -23,7 +23,7 @@ struct IosSDKIntegrationApp: App {
     
     @State var isPresented = false
     @State var sessionId: String? = nil
-    @State var gradingFlow: GradingFlow! = .home
+    @State var gradingFlow: GradingFlow! = .store
     
     var body: some Scene {
         WindowGroup {
@@ -40,8 +40,8 @@ struct IosSDKIntegrationApp: App {
                 handleOpenURL(url: url)
             }
             .fullScreenCover(isPresented: $isPresented) {
-                SDKView(flow: gradingFlow,
-                        sessionId: sessionId)
+                SDKView(flow: $gradingFlow,
+                        sessionId: $sessionId)
             }
         }
     }

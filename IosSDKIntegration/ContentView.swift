@@ -15,11 +15,13 @@ struct ContentView: View {
     
     var body: some View {
         Button("Start Pandas Grading SDK") {
+            gradingFlow = .home
+            sessionId = nil
             isPresented = true
         }
         .fullScreenCover(isPresented: $isPresented) {
-            SDKView(flow: gradingFlow,
-                    sessionId: sessionId)
+            SDKView(flow: $gradingFlow,
+                    sessionId: $sessionId)
             .ignoresSafeArea()
             
         }
@@ -29,8 +31,8 @@ struct ContentView: View {
 
 struct SDKView: UIViewControllerRepresentable {
     
-    var flow: GradingFlow!
-    var sessionId: String?
+    @Binding var flow: GradingFlow!
+    @Binding var sessionId: String?
     
     func makeUIViewController(context: Context) -> UINavigationController {
 
