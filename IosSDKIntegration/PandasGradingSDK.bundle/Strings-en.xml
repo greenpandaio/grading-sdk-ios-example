@@ -1,0 +1,976 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <common>
+        <start>Start</start>
+        <resume_evaluation>No, resume evaluation</resume_evaluation>
+        <exit_evaluation>Exit evaluation</exit_evaluation>
+        <evaluation_warning>You need to complete evaluation to get a trade in offer for your device. However, If you wish to continue evaluation later, your progress will be saved.</evaluation_warning>
+        <offer_warning>You can continue, but your&lt;br /&gt;offer will be lower.</offer_warning>
+        <cancel>Cancel</cancel>
+        <continue>Continue</continue>
+        <lets_evaluate>Let&#x27;s evaluate your</lets_evaluate>
+        <start_now>Start now</start_now>
+        <allow_access>Allow access</allow_access>
+        <skip_step>Got it, skip to the next step</skip_step>
+        <try_again>Try again</try_again>
+        <works_ok>Works OK</works_ok>
+        <evaluation_failed>Evaluation failed</evaluation_failed>
+        <evaluation_skiped>Evaluation skiped</evaluation_skiped>
+        <whats_next>What&#x27;s next?</whats_next>
+        <invalid_phonenumber>Please type a valid phone number</invalid_phonenumber>
+    </common>
+    <browser_fallback>
+        <mobile>
+            <title>You have to run the tests on your default browser</title>
+            <description>Open your default browser and paste the Pandas app link.</description>
+            <button>Copy link</button>
+            <copied>Copied</copied>
+        </mobile>
+        <desktop>
+            <title>Sorry</title>
+            <description>not working on desktop. Scan QR code to continue on your mobile device</description>
+        </desktop>
+        <android>
+            <title>Soon, for Android too!</title>
+            <description>Currently available for iOS devices only. Click below to evaluate your device.</description>
+            <button>Evaluation</button>
+        </android>
+    </browser_fallback>
+    <browser_update>
+        <title>Update your browser</title>
+        <description>Looks like you are using an older version of your browser. To get the best possible experience please download the latest version from Google Play or App store.</description>
+        <update>Update my Browser</update>
+        <updated>I have updated my Browser</updated>
+        <continue>Continue Anyway</continue>
+    </browser_update>
+    <start_page>
+        <how_it_works>How it works</how_it_works>
+        <title>&lt;span&gt;Trade in.&lt;/span&gt;&lt;br /&gt;Save money.&lt;br /&gt;Do good.</title>
+        <impact>Impact</impact>
+        <more>More</more>
+    </start_page>
+    <login_page>
+        <title>Login</title>
+        <description>Please enter your store ID</description>
+        <valid_message>Valid store ID</valid_message>
+        <invalid_message>Invalid store ID</invalid_message>
+    </login_page>
+    <device_info_page>
+        <instructions>Now, &lt;strong&gt;the owner of this device&lt;/strong&gt; should continue with the tests</instructions>
+        <warning>Find My iPhone should be off</warning>
+    </device_info_page>
+    <walkthrough_page>
+        <title_page>How it works</title_page>
+        <slide_1>
+            <title>Evaluate&lt;br /&gt;your device.</title>
+            <content>Assess your device through simple tests. It’s Free and only takes 5 minutes.</content>
+        </slide_1>
+        <slide_2>
+            <title>Get a fair&lt;br /&gt;trade-in quote.</title>
+            <content>Get a trade-in quote based on the condition of your device.</content>
+        </slide_2>
+        <slide_3>
+            <title>Select the&lt;br /&gt;drop-off option.</title>
+            <content>See all available locations and diffent options to complete your trade-in.</content>
+        </slide_3>
+    </walkthrough_page>
+    <resume_page>
+        <top_title>
+            <title>Resume Evaluation</title>
+            <description>Resume device evaluation to get your trade in quote. If you don’t complete all evaluation steps, we’ll have to give you lower trade in quote.</description>
+        </top_title>
+        <evaluation_steps>Evaluation steps pending</evaluation_steps>
+        <resume>Resume evaluation</resume>
+        <get_quote>Get a quote without completing evaluation</get_quote>
+    </resume_page>
+    <language_page>
+        <language>Language</language>
+    </language_page>
+    <impact_page>
+        <title>Impact</title>
+        <top_title>With the &lt;span&gt;trade-in&lt;/span&gt;&lt;/br&gt;of each device</top_title>
+        <list_item_1>
+            <title>1 device will be reused</title>
+            <content>This way we save ~60kg in CO2 emissions.</content>
+        </list_item_1>
+        <list_item_2>
+            <title>1 tree will be planted</title>
+            <content>Reducing CO2 emissions by ~21kg per year.</content>
+        </list_item_2>
+        <emission_info>Total CO2 emissions that will be saved are equivalent to a &lt;span&gt;300km trip&lt;/span&gt; in a car!</emission_info>
+    </impact_page>
+    <more_page>
+        <title>More</title>
+        <our_story_header>Our&lt;br/&gt;Story</our_story_header>
+        <our_story_header_partner>Pandas&lt;br/&gt;Story</our_story_header_partner>
+        <our_manifesto_header>Our&lt;br/&gt;Manifesto</our_manifesto_header>
+        <our_manifesto_header_partner>Pandas&lt;br/&gt;Manifesto</our_manifesto_header_partner>
+        <app_language>Language</app_language>
+        <need_help>Need help?</need_help>
+        <faq>FAQ</faq>
+        <contact_us>Contact us</contact_us>
+        <legal>Legal</legal>
+        <privacy_policy>Privacy Policy</privacy_policy>
+        <terms_of_services>Terms of Services</terms_of_services>
+    </more_page>
+    <privacy_policy_page>
+        <title>Privacy Policy</title>
+        <privacy_policy>&lt;p&gt;&#x27;GREEN PANDA SINGLE-MEMBER PRIVATE COMPANY&#x27; respects and protects your privacy and your personal data. This Privacy Policy applies every time you use the services offered to you through the &#x27;WebApp&#x27; application in order (i) to evaluate your electronic device, (ii) to provide of a financial offer on a case-by-case basis - if you decide to make a financial transaction, or (iii) to final issue a coupon that will incorporate the amount of the financial offer corresponding to the value of the electronic device as obtained during the above mentioned evaluation, which can be used exclusively for the purchase of products from the store of our partner enterprises that use the &#x27;WebApp&#x27; on behalf of our company and in accordance with the terms and conditions incorporated therein, or (iv) to pay you the agreed price corresponding to the value of your electronic device as obtained during the above mentioned evaluation, if you finally make it available to our company (&#x27;financial transaction&#x27;). The protection of your Personal Data is governed by the legal framework &lt;strong&gt;of the General Data Protection Regulation 2016/679 of the EU (hereinafter &#x27;GDPR&#x27;), as well as by the Greek law no. 4624/2019&lt;/strong&gt; &#x27;Personal Data Protection Authority, measures for the implementation of Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of data” as currently in force.&lt;br&gt;&lt;br&gt;For the purposes of the applicable legislation, Controller shall mean the company under the name &lt;strong&gt;&#x27;GREEN PANDA SINGLE-MEMBER PRIVATE COMPANY&#x27;&lt;/strong&gt; having its registered office at 20 Charitos Street, P.C. 10675, Athens with GCR No 150229702000 &lt;strong&gt;(hereinafter referred to as &#x27;our company&#x27;, &#x27;we&#x27;, &#x27;our&#x27;, &#x27;ours&#x27;)&lt;/strong&gt; and our purpose is to provide you with the most information possible regarding any form of processing of your personal data (e.g. collection, storage, etc.) as well as to inform you of your rights.&lt;br&gt; &lt;br&gt; &lt;h4&gt;&lt;u&gt;1. CATEGORIES OF DATA COLLECTED BY US&lt;/u&gt;&lt;/h4&gt;&lt;br&gt; A) &lt;u&gt;Your Identification Data:&lt;/u&gt; Full Name, phone number, email address. This information is collected directly from you at the pre-contractual and contractual stage, i.e. the moment you accept the financial offer as resulted from the pricing of your electronic device using the “Trade-In App”.&lt;br&gt;&lt;br&gt; B) &lt;u&gt;Information about your device:&lt;/u&gt; &lt;br /&gt; a) The unique identifier of your mobile device (“IMEI number”). The IMEI number is collected during the evaluation phase of your electronic device in order to subsequently form a corresponding financial offer for selling it and, at the stage of issuance of the coupon, if you choose to make a financial transaction, to make it possible to match the financial offer with the electronic device sold in order to be credited to you, through the issuance and delivery of the coupon, with the corresponding amount for purchases of equal value in the stores of our partner enterprises. Also the IMEI number is used by our company in order to confirm whether the coupon you have received with the financial offer for the value of your device was redeemed or expired or still remains active for redemption. To the extent that the above IMEI number or similar identifiers or similar information derived therefrom may be interpreted as, or become, personal data in accordance with the relevant applicable law, we undertake to treat such information as personal data in accordance with the terms of this Privacy Policy.&lt;br /&gt; b) Information about the functionality of some other components of your device which are biometrics, camera front/back, audio (microphone/speaker), digitizer. To collect this information, the &quot;WebApp&quot; will request you to provide us with the required access on the camera (capture front/back side photos from your device), biometrics, audio functionalities of your device. The information that will be collected will be stored and used solely for the purpose of evaluating your device’s condition.&lt;br&gt;&lt;br&gt;C) &lt;u&gt;Your financial data:&lt;/u&gt; If you make a financial transaction and only at this stage we collect your International Bank Account Number (IBAN) and/or your bank debit or credit card number.&lt;br&gt;&lt;br&gt;&lt;h4&gt;&lt;u&gt;2. OUR PURPOSES FOR COLLECTING YOUR DATA&lt;/u&gt;&lt;/h4&gt;&lt;br&gt;-To take measures at your request at the pre-contractual stage, i.e. for the issuance of the relevant coupon that will incorporate the amount of the financial offer accepted by you and which coupon may be used in accordance with the terms and conditions incorporated therein. The coupon will also be sent in electronic form to the email address (email) indicated by you.&lt;br&gt;&lt;br&gt;- For the final and smooth preparation of the contract, namely: (a) either by redeeming your coupon by purchasing products from the stores of our partner enterprises and selling your electronic device to us through our partner enterprises acting as our agents, (b) or by paying you the agreed price (value of your electronic device) and corresponding sale of your electronic device to us or through our partner enterprises acting as our agents.&lt;br&gt;&lt;br&gt;- To safeguard your legitimate interests and the protection of transactions in general, i.e. for the purpose of identifying you during the performance of the contract. Your adequate identification serves your protection against fraudulent behavior by third parties in case of loss of your electronic device or coupon (double authentication: device owner but also coupon owner).&lt;br&gt;&lt;br&gt; - To comply with our legal obligations, if we receive a respective legal request for the transmission of such personal data to the competent police or prosecutorial/judicial or supervisory authorities and for the purpose of our compliance with the applicable legislation or for our compliance with the commercial or tax legislation, etc.&lt;br&gt;&lt;br&gt;- To comply with our legitimate interests in accordance with Article 6 para. 1 (f) of the GDPR and provided that such collection does not constitute a breach of your individual rights and freedoms (i.e. processing is preceded by a relative weighting of interests). Specifically, the said data is collected in particular and primarily for the purpose of protecting transactions and preventing or prosecuting criminal or other offences (e.g. fraud, embezzlement, acceptance and placing on market the proceeds of crime, etc.).&lt;br&gt;&lt;br&gt;- With your consent, we use your data to send you information (newsletter), for advertising purposes, direct marketing. We would like to inform you that by accepting this Privacy Policy you give us your explicit consent to use, collect and store your data for the above mentioned purpose (sending information material, advertising, direct marketing). In any case, you have the right to withdraw your consent by email at contact@pandas.io or simply by clicking “unsubscribe” in the corresponding emails you will receive.&lt;br&gt;&lt;br&gt;&lt;h4&gt;&lt;u&gt;3. TRANSMISSION OF YOUR PERSONAL DATA TO THIRD PARTIES&lt;/u&gt;&lt;/h4&gt;&lt;br&gt; Our company may transmit your data strictly to our necessary personnel, who are bound by a relevant obligation of confidentiality as well as to our partner companies or third party service providers, who process your data as Processors on behalf and in accordance with our orders.&lt;br&gt;&lt;br&gt;&lt;strong&gt;Our staff or our affiliates&lt;/strong&gt; process your data solely for the purpose of the initial evaluation of your device and its relevant control, the provision to you of the proposed financial offer, the issuance of a relevant coupon if you accept the relevant offer, the execution of a financial transaction, and in general for the purpose of the successful implementation of our contract. Our partner enterprises are always selected on the basis of, among other things, the high degree of protection they provide regarding the security of personal data.&lt;br&gt;&lt;br&gt;&lt;strong&gt;Third party service providers&lt;/strong&gt; are companies that have been charged with the task of managing, maintaining and developing the technical features of the software incorporated in the WebApp and our servers in general, as well as with the task of hosting, managing and maintaining your data (hosting platforms/servers). Companies providing such services have been carefully selected and have experienced, competent and reliable staff and operate on the basis of all relevant requirements, specifications and rules set by the existing legislative framework.&lt;br&gt;&lt;br&gt;Other recipients of your data may be the Financial Institutions or other institutions for executing payment orders through which our financial transaction is implemented.&lt;br&gt;&lt;br&gt;The Processors have agreed and contractually committed with our Company to observe a duty of confidentiality, not to share your data with third parties without our Company&#x27;s permission, to process your data exclusively for the agreed processing purposes, to take appropriate technical and organizational security measures and in general to comply with the legal provisions on the protection of personal data in order to maintain a high level of their security.&lt;br&gt;&lt;br&gt;Please contact us by sending an email to contact@pandas.io, if you want to receive a complete list of partner enterprises.&lt;br&gt;&lt;br&gt;We reserve the right to share your personal data in cases where such disclosure is required by law or imposed by other competent supervisory, monitoring, independent, judicial, public and/or other authorities or is required for purposes prescribed by law, for which the individual&#x27;s consent is not required (e.g. contribution to the prevention or investigation of fraud, to protect our legitimate interests and/or our property, etc.).&lt;br&gt;&lt;br&gt;The processing of your personal data takes place within Greece and the European Union (EU). In case we cooperate with companies outside the EU, we will protect your data in the way described in this Privacy Policy and your data will only be processed upon instruction given by us and only in case there is an adequacy decision by the European Commission or if the appropriate safeguards (binding corporate rules, standard data protection clauses, approved code of conduct, etc.) are agreed which ensure a high level of security in relation to the processing of your personal data.&lt;br&gt;&lt;br&gt;There is a possibility that our company processes personal data of third parties, which are transmitted directly to us by the users of the &#x27;WebApp&#x27;, such as when the customer presenting the electronic device for its pricing and sale is different from the owner of the electronic device.&lt;br&gt;&lt;br&gt;Under these circumstances, it is the responsibility of the customer/user who appears as the owner of the electronic device during the use of the trade-in app in general to have received the prior express/written consent by the owner before disclosing his/her personal data to our company (full name, account details, etc.) and to inform him/her about this Privacy Policy, because the customer/user will be solely responsible for the transmission of the information and personal data of a third party who has not given his/her consent or in case such data is used in an illegal or inappropriate manner. Our company expressly disclaims any relevant liability that may arise from such unlawful or unfair use. In any case, any third party whose personal data is processed by our company under such circumstances has the same rights as those described in Section 6 of this Privacy Policy under the heading &#x27;Your Rights&#x27;.&lt;br&gt;&lt;br&gt; &lt;h4&gt;&lt;u&gt;4. RETENTION PERIOD OF DATA KEPT BY US&lt;/u&gt;&lt;/h4&gt;&lt;br&gt;The retention period that we keep your personal data depends on the time required in order to provide you with the services you have selected (e.g. payment of money for the sale of your electronic device) and any relevant legitimate business purpose. Generally, when your personal data is no longer needed for legitimate business purposes or reasons, your personal data will be securely deleted and destroyed and/or can be anonymised in a shorter time to make them unidentifiable with your person.&lt;br&gt;&lt;br&gt; In particular, when you choose to make a financial transaction and a final sale of your electronic device, we store your personal data for five (5) years from the execution of the contract between us.&lt;br&gt;&lt;br&gt;Especially for the personal data we collect based on your consent, these are kept for as long as the relevant consent has been given or until its revocation if this occurs earlier. &lt;br&gt;&lt;br&gt;Otherwise, and only exceptionally, we may retain your personal data for a longer period of time even after the termination of the relationship between us and the expiration of the deadlines for the exercise of the relevant rights that may arise therefrom (e.g. expiration of the coupon containing the financial offer, withdrawal from the contract, etc.), in order to comply with our legal interests as defined above (e.g. crime prevention or suppression) or with another legal obligation upon a relevant request from competent Public Authorities.&lt;br&gt;&lt;br&gt;&lt;h4&gt;&lt;u&gt;5. HOW WE PROTECT YOUR DATA/SECURITY MEASURES&lt;/u&gt;&lt;/h4&gt;&lt;br&gt; We introduce Appropriate Technical and Organizational Measures (&#x27;ATOM&#x27;) of Security that are sufficient to minimize the risks of destruction, loss or alteration of data - even accidentally -, to prevent unauthorized access and dissemination of your personal information data, as well as to prevent illegal processing methods and types of processing that are not in accordance with the collection purposes stated in this Privacy Policy and, finally, that ensure the confidentiality, integrity and availability of your data and aim to minimize their processing.&lt;br&gt;&lt;br&gt; However, we cannot guarantee that the ATOMs introduced in relation to the collection of your data and their possible transmission to third parties, limit or exclude any risk of unauthorized access or dissemination of data during the evaluation stage of your device, as the protection of your data depends on you as well.&lt;br&gt;&lt;br&gt; &lt;h4&gt;&lt;u&gt;6. YOUR RIGHTS&lt;/u&gt;&lt;/h4&gt;&lt;br&gt; You have the right, at any time, to access your personal data, details and information that yourself have disclosed to our business (right of access).&lt;br&gt;&lt;br&gt; You have the right to request the updating, correction and modification of your personal data (right of correction).&lt;br&gt;&lt;br&gt; You have the right to request the deletion and permanent elimination of your personal data in whole or in part (right of deletion) (if e.g. the data are no longer necessary for the purposes for which they were collected, etc.).&lt;br&gt;&lt;br&gt; You have the right to request the conversion into an anonymous form or blocking of your personal data used, including data that is considered unnecessary for the purposes for which the data were collected or subsequently processed (right to restrict processing).&lt;br&gt;&lt;br&gt;You have the right to request that your personal data be transferred to another data controller in a secure manner (right to portability).&lt;br&gt;&lt;br&gt;In any case, you have the right to object in whole or in part (right to object) to any further processing other than those expressly mentioned above.&lt;br&gt;&lt;br&gt; You may freely exercise your rights at any time by sending a written request to our company at dpo@greenpanda.io and/or by sending a registered letter to 20 Charitos st., P.C. 10675, Athens, and we will respond immediately to your request.&lt;br&gt;&lt;br&gt;We strive to respond to all legitimate customer/user requests within one month from the date of submission thereof. Occasionally it may take longer than a month, taking into account the complexity of your request and the number of requests. In this case, we will notify you and inform you accordingly. However, in the event that your request is manifestly unfounded, excessive or repetitive, we can either impose a reasonable charge, which we will inform you of, or refuse to respond to your request.&lt;br&gt;&lt;br&gt; If you believe that your rights are being infringed in any way, you can also submit a complaint to the competent Supervisory Authority: &lt;br&gt;&lt;br&gt;Hellenic Data Protection Authority&lt;br&gt;&lt;br&gt; Postal Address: 1-3 Kifissias Avenue, P.C. 115 23, Athens&lt;br&gt;&lt;br&gt; Call Center: +30-210 6475600 &lt;br&gt;&lt;br&gt;Fax: +30-210 6475628&lt;br&gt;&lt;br&gt; E-mail: contact@dpa.gr&lt;br&gt;&lt;br&gt;&lt;h4&gt;&lt;u&gt; 7. AMENDMENTS TO THE PRIVACY POLICY&lt;/u&gt;&lt;/h4&gt;&lt;br&gt; Our company may amend or update this Privacy Policy, in part or in full, even due to an update of the legislation governing the protection of your personal data, and protect your rights. Any such amendments and updates to the Privacy Policy will be posted on the “Trade-In App” and communicated to you in this way so that they will be binding as soon as they are published there, and take effect from the moment of your next visit. We therefore invite you to visit this section every time you use our services and this application to read the latest and updated version of our Privacy Policy.&lt;br&gt;&lt;br&gt;&lt;h4&gt;&lt;u&gt; 8. CONTACT US&lt;/u&gt;&lt;/h4&gt;&lt;br&gt; For any questions, clarifications or complaints in relation to this Privacy Policy, please contact: &lt;br&gt;&lt;br&gt;Data Controller:&lt;br&gt;&lt;br&gt; GREEN PANDA SINGLE-MEMBER PRIVATE COMPANY &lt;br&gt;&lt;br&gt;20 Charitos Street, P.C. 10675, Athens&lt;br&gt;&lt;br&gt; General Commercial Registry Number 150229702000&lt;br&gt;&lt;br&gt; contact@pandas.io&lt;br&gt;&lt;br&gt; Data Protection Officer:&lt;br&gt;&lt;br&gt; dpo@greenpanda.io&lt;/p&gt;</privacy_policy>
+    </privacy_policy_page>
+    <terms_of_services_page>
+        <title>Terms of Services</title>
+        <terms_of_services>&lt;p&gt;&lt;strong&gt;1.General provisions&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;The company &quot;GREEN PANDA SINGLE-MEMBER P.C.&quot; (hereinafter referred to as &quot;our company&quot;, &quot;we&quot;, &quot;our&quot;, &quot;GREEN PANDA&quot;, is the sole owner and administrator of this website (hereinafter referred to as the &quot;website&quot;).&lt;br /&gt;&lt;br /&gt;The use of this website www.pandas.io by the user/guest depends on prior understanding, careful reading and approval of these terms and conditions that apply to the entire content, pages and graphics, images, and all files on the website. If you disagree with these terms, you should not use the services and content of our website. These terms may be amended or modified from time to time, so please review their content before using our website. The use of the www.pandas.io website after the modification of the content of certain pages means that the user accepts these terms and conditions unconditionally. If you do not agree to these terms and conditions, please do not use the services on our website.&lt;br /&gt;&lt;br /&gt;The terms and conditions of use of our website constitute the entire and complete agreement between our company and the website user/guest and only bind these two parties. Any amendments to these terms and conditions shall be the subject of the above-mentioned agreement once they are written and incorporated in this text and shall be effective from the next visit of the user/guest thereafter. Our company may modify these terms and conditions without prior notice or permission from the user/guest.&lt;br /&gt;&lt;br /&gt;By accepting these terms of use, you declare that you are an adult (over 18 years of age) or at least over fifteen (15) years of age in order to be entitled to use the services offered through our website. In any other case, you cannot access our website and use our services and, respectively, our company is in no way responsible for such use.&lt;br /&gt;&lt;br /&gt;If a minor under the age of 15 finally makes use of the services provided through our website, falsely stating -by accepting these terms- that they are over 15 years old, the persons with parental responsibility of the minor shall be personally and unconditionally bound by these terms and conditions and shall bear the full responsibility arising from such use, including any financial obligations arising therefrom.&lt;br /&gt;&lt;br /&gt;The www.pandas.io website guest/user is required to use it in accordance with the law and these terms and conditions. This website is for personal use only and cannot therefore be modified, reproduced, copied, distributed, sold, resold or used for commercial or non-commercial purposes. In the event of such action, our company is entitled to prohibit you from accessing the website temporarily or permanently and to claim any other damage caused to the website.&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;2. Intellectual property rights&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;The entire content of our website, including but not limited to, texts, graphics, outlines, videos, projects, images, dialogs, music, recommended services, terms and conditions of use, and any other material posted on this website in any form, including menus, web pages, tools, fonts, web design programs, diagrams, methods, procedures, functions, and software that are part of this website, and any modification related to this particular content, are intellectual property rights of our company and/or their relevant beneficiaries and are governed and protected by Greek law (Law 2121/1993, as amended by Laws 4212/2013 and Law 4481/2017 as in force), European Union law and all relevant international conventions. In addition, the logos, trademarks, domain names and features on our website belong to this website and/or to all relevant persons who hold the relevant intellectual property rights. No reproduction, modification or alteration, in whole or in part, in any way whatsoever, of www.pandas.io and its content, shall be permitted without the written consent of GREEN PANDA.&lt;br /&gt;&lt;br /&gt;If any provision of the above terms is contrary to the general provisions of the Copyright Protection Act or is annulled, this term shall immediately cease to be valid and shall be deleted from these terms and conditions without affecting the other terms herein.&lt;br /&gt;&lt;br /&gt;In order to use and exploit any materials posted on our website that may be owned by third parties, the user/visitor must seek written permission from the persons holding the copyrights and trademarks in order to obtain their respective rights of use and exploitation.&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;3. Trademarks and domain names&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;GREEN PANDA SINGLE-MEMBER P.C. is the sole owner of the logos and trademarks registered with the European Intellectual Property Office (EUIPO) in a specific graphic display including the words GREEN PANDA and domain name greenpanda.io or pandas.io. All other features used to distinguish products or services advertised or promoted on www.pandas.io and published on the website are registered trademarks of their respective owners and are used on www.pandas.io only for the purpose of distinguishing, describing and advertising the products or services advertised or promoted on www.pandas.io.&lt;br /&gt;&lt;br /&gt;GREEN PANDA and all other holders of registered trademarks are entitled to exclusive use of the trademarks belonging to them respectively.&lt;br /&gt;&lt;br /&gt;You are not authorized, without the consent of our company and any other owner of the registered trademarks posted on the website, to use these trademarks to distinguish products or services.&lt;br /&gt;&lt;br /&gt;Any illegal or unauthorized use of such trademarks is prohibited and will result in the imposition of all legal sanctions. Such trademarks and any other trademark posted on www.pandas.io shall under no circumstances be used to confer an illegal benefit on the distinctive features or reputation of such trademarks or in such a way as to impair the reputation of the trademark itself or its owner and in general, they must only be used for the purposes specified in www.pandas.io (personal and non-commercial use only).&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;4. Links to other third-party websites/Ads&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;The www.pandas.io website contains links to other websites that have nothing to do with www.pandas.io or GREEN PANDA. GREEN PANDA does not control or monitor such third party websites or their content. Our company is not responsible for the content of these websites and/or for the rules set by them regarding your privacy and the processing of your personal data during your visit to these websites.&lt;br /&gt;&lt;br /&gt;In particular, our company is not responsible for: (i) the availability or accuracy of such websites or sources; (ii) the content, products or services that exist or are available from such websites or sources. Existing links to such websites or sources do not imply any support from our company to such websites or sources or the content, products or services available from such websites or sources. You acknowledge that you are solely responsible for and assume all risks arising from the use of such websites or sources.&lt;br /&gt;&lt;br /&gt;Please pay attention when accessing these web pages through the links provided at www.pandas.io and carefully read &lt;strong&gt;their terms of use&lt;/strong&gt; and &lt;strong&gt;privacy policies.&lt;/strong&gt; These General Terms of Use and our Privacy Policy do not apply to third party websites.&lt;br /&gt;&lt;br /&gt;The www.pandas.io website provides links to other websites exclusively to help its users search and navigate the Internet and allow connections to other websites on the Internet.&lt;br /&gt;&lt;br /&gt;When our company provides links to other websites, it does not mean that it also recommends that its users have access to those websites and does not provide guarantees on their content or on the services and proposed products provided, promoted, advertised and/or sold by these websites on the Internet to users.&lt;br /&gt;&lt;br /&gt;In addition, our website may contain advertisements from our company or third-party businesses and may also display other promotional material, with advertising purpose and nature.&lt;br /&gt;&lt;br /&gt;In the case of advertisements from third parties, our company does not control the content of such advertisements and is therefore not liable to its users/visitors for the content of such advertisements in respect of any unlawful acts or omissions, inaccuracies or breaches of applicable law in relation to the content of such advertisements. This responsibility shall be borne solely by advertisers, sponsors and/or authors of the advertising material displayed.&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;5. Disclaimer regarding the content of the website&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;Our company makes every effort to prevent the publication on our website of content that describes or represents situations that may be determined by the individual website user/guest that violate their beliefs and rights. In any event, our company does not guarantee that the contents of the website are appropriate or legal in countries other than Greece.&lt;br /&gt;&lt;br /&gt;However, if these contents are considered illegal in some of these countries, please do not access our website and if you choose to stay on our website, we inform you that the use of the services provided from www.pandas.io will be under your sole and personal responsibility.&lt;br /&gt;&lt;br /&gt;However, our company cannot be held responsible for the accuracy and completeness of the content posted on our website.&lt;br /&gt;&lt;br /&gt;In addition, our company cannot guarantee that the website will operate continuously, without interruptions and errors due to the Internet connection. If any problem arises during the use of the website, please contact us by writing at the following email address: contact@pandas.io&lt;br /&gt;&lt;br /&gt;Our representative will be at your disposal to help you restore your access to the website, if possible. At the same time, please contact your Internet service provider or check that each device intended to connect to the Internet has been activated correctly, including the Internet browser.&lt;br /&gt;&lt;br /&gt;Although our company will do its utmost to ensure smooth access to its website, the internet may not allow www.pandas.io to operate without interruptions or discontinuities due to website updates.&lt;br /&gt;&lt;br /&gt;Our company has put in place appropriate technical and organizational security measures to protect the services on website www.pandas.io the integrity of traffic data and electronic communications in order to prevent unauthorized use or access to data, and to prevent risks of dissemination, destruction and loss of data and confidential/non-confidential information regarding the website users/guests and to prevent unauthorized or illegal access to these data and information. However, GREEN PANDA expressly states that it does not take responsibility in cases of cyber-attacks or other malicious attacks or if it detects other illegal activity it is entitled to take -at its sole discretion any controlled access protective measures or even to suspend access to any of its websites.&lt;br /&gt;&lt;br /&gt;YOU AGREE THAT, TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, WE WILL NOT BE LIABLE OR OBLIGED (WHETHER CONTRACTUALLY, OR TORTIOUSLY (INCLUDING NEGLIGENCE) OR OTHERWISE), UNDER ANY CIRCUMSTANCES, FOR ANY (A) TERMINATION OF ACTIVITY, (B) DELAY OR TERMINATION OF ACCESS TO THE WEBSITE, (C) FAILURE TO DELIVER, WRONGFUL DELIVERY, CORRUPTION, DESTRUCTION OR OTHER MODIFICATION OF DATA, (D) LOSS OR DAMAGE OF ANY KIND ARISING AS A RESULT OF THE PRESENCE OF LINKS OUTSIDE THE WEBSITE OR AS A RESULT OF THIRD PARTY ACTIONS, (E) COMPUTER VIRUSES, SYSTEM FAILURES OR DYSFUNCTIONS LIKELY TO OCCUR IN CONJUNCTION WITH THE WEBSITE USE, INCLUDING THE DURATION OF A HYPERLINK TO OR FROM THIRD PARTY WEBSITES, (F) ANY INACCURACIES OR OMISSIONS IN CONTENT, OR (G) EVENTS OUT OF OUR REASONABLE CONTROL [ACCIDENTAL OR FORCE MAJEURE].&lt;br /&gt;&lt;br /&gt;IN ADDITION, TO THE MAXIMUM EXTENT PERMITTED BY LAW, WE WILL NOT BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL OR CONSEQUENTIAL DAMAGE OR DAMAGE OF ANY KIND (SUCH AS LOST PROFITS) RELATING TO THE WEBSITE OR ITS USE BY YOU, CAUSED EITHER BY CONTRACT OR BY TORT (INCLUDING NEGLIGENCE).&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;6. User/guest liability&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;This chapter of the terms of use obliges you to protect us and compensate us from any illegal activities caused by you. Please read carefully.&lt;br /&gt;&lt;br /&gt;You agree to indemnify our Company and its associates, its successors, any subsidiaries and affiliates, its employees and directors, and any successors thereof, and all its agents in general, to the maximum extent permitted by applicable law, for any loss, damage or costs (including reasonable lawyers&#x27; fees and expenses) arising out of or related to (i) your access, use or misuse of any of the services provided in www.pandas.io, (ii) breach or alleged breach of these terms and conditions in whole, or (iii) any breach by you of any applicable laws or other rights, including but not limited to the breach or illegal possession or exploitation of any third party right or GREEN PANDA right, including without limitation of any intellectual property right, trademark, patent, trade secret or property right, privacy or other proprietary rights.&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;7. Privacy Policy&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;Please read carefully our privacy policy at www.pandas.io/privacy-policy which complements these general terms of use and provides you with details regarding the collection and processing of your personal data during the website visit, your rights, the information of the controller and how you can communicate with us.&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;8. Applicable law- Jurisdiction&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;These General Terms of Use, as well as the Privacy Policy of our website, are governed by Greek law. The proper use of your personal data is regulated by Greek and EU law, in particular by Regulation (EU) 2016/679 governing the protection of personal data and the way in which personal data are treated, as well as the corresponding Greek Law 4624/2019 adopted pursuant to the above Regulation. In the event of a dispute among the users/guests and our company, Greek law applies and the courts of Athens are solely competent to resolve the dispute.&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;9. Contact us&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;For any clarification or additional information about www.pandas.io, on how GREEN PANDA processes the personal data of users or relates to the services on our website, you may contact the email: contact@pandas.io or the phone number 00302111982521 (work hours).&lt;/p&gt;</terms_of_services>
+    </terms_of_services_page>
+    <device_ownership_page>
+        <title>Device ownership</title>
+        <device_ownership>&lt;p&gt;Υπεύθυνη Δήλωση(άρθρο 8 Ν.1599/1986)&lt;br /&gt;&lt;br /&gt;Η ακρίβεια των στοιχείων που υποβάλλονται με αυτή τη δήλωση μπορεί να ελεγχθεί με βάση το αρχείο άλλων υπηρεσιών (άρθρο 8 παρ. 4 Ν. 1599/1986).ΠΡΟΣ: Πάσα Αρμόδια ΑρχήΜε ατομική μου ευθύνη και γνωρίζοντας τις κυρώσεις, που προβλέπονται από τις διατάξεις της παρ. 6 του άρθρου 22 του Ν. 1599/1986, ότι δηλαδή «[ό]ποιος εν γνώσει του δηλώνει ψευδή γεγονότα ή αρνείται ή αποκρύπτει τα αληθινά με έγγραφη υπεύθυνη δήλωση του άρθρου 8 τιμωρείται με φυλάκιση τουλάχιστον τριών μηνών. Εάν ο υπαίτιος αυτών των πράξεων σκόπευε να προσπορίσει στον εαυτόν του ή σε άλλον περιουσιακό όφελος βλάπτοντας τρίτον ή σκόπευε να βλάψει άλλον, τιμωρείται με κάθειρξη μέχρι 10 ετών», δηλώνω ότι: Είμαι αδιαμφισβήτητος νόμιμος κύριος της συσκευής κινητού τηλεφώνου που πρόκειται να πουλήσω μέσω της υπηρεσίας &quot;WebApp&quot;, η οποία περιήλθε στην κατοχή μου νομίμως δι’ αγοράς και παράδοσης της νομής και κατοχής της από εξουσιοδοτημένο πάροχο, κατάστημα κινητής τηλεφωνίας ή οποιονδήποτε άλλο φορέα διενεργεί νομίμως αγοραπωλησίες συσκευών κινητής τηλεφωνίας και διαθέτει όλες τις σχετικές προς τούτο άδειες.Η εν λόγω συσκευή κινητής τηλεφωνίας δεν συνιστά προϊόν κλοπής, υπεξαίρεσης, κλεπταποδοχής ή διάθεσης προϊόντων εγκλήματος, ληστείας ή οποιουδήποτε άλλου ποινικού αδικήματος ή παράνομης πράξης.&lt;/p&gt;</device_ownership>
+    </device_ownership_page>
+    <faq_page>
+        <title>Frequently Asked Questions</title>
+        <top_title>How can we &lt;span&gt;help?&lt;/span&gt;</top_title>
+        <question_1>
+            <question>What is Pandas?</question>
+            <answer>Pandas is the easiest, quickest, and safest way to sell your smartphone or tablet and get paid in under 3’. 😎</answer>
+        </question_1>
+        <question_2>
+            <question>What devices can I trade in with Pandas?</question>
+            <answer>We accept a wide selection of smartphones and you receive a deposit to your bank account or a voucher to redeem in a partner&#x27;s store. Run the diagnostics on your device and find out if your device is eligible for trade-in.</answer>
+        </question_2>
+        <question_3>
+            <question>Do I need to prepare my device before running the diagnostics?</question>
+            <answer>Yes, but it’s very easy. To initiate the process, just make sure:&lt;br /&gt;- Your phone is on, with at least 5% battery left.&lt;br /&gt;- You have disconnected Bluetooth devices (e.g. earbuds or headphones)&lt;br /&gt;- Your device’s biometrics are set up (e.g. FaceID or Fingerprint sensor&lt;br /&gt;- Your device is not in factiry settings</answer>
+        </question_3>
+        <question_4>
+            <question>How do I prepare my device in order to complete a trade-in?</question>
+            <answer>- Deactivate Find My iPhone for Apple devices or your Google account for Android devices.</answer>
+        </question_4>
+        <question_5>
+            <question>What means of payment does Panda offer?</question>
+            <answer>For security reasons, all transactions are fulfilled with a deposit in your bank account or by sending you a voucher to redeem in a partner&#x27;s store</answer>
+        </question_5>
+        <question_6>
+            <question>In order to sell my device, does it need to be functional?</question>
+            <answer>That’s right! 💪 Your device needs to be working to complete the trade-in.</answer>
+        </question_6>
+    </faq_page>
+    <contact_us_page>
+        <title>Contact</title>
+        <top_title>We would &lt;span&gt;love&lt;/span&gt;&lt;/br&gt;to hear from you</top_title>
+        <form>
+            <first_name>First name</first_name>
+            <last_name>Last name</last_name>
+            <email>E-mail</email>
+            <your_message>Your message</your_message>
+            <send>Send</send>
+        </form>
+    </contact_us_page>
+    <thank_you_page>
+        <title>Thank you!</title>
+        <description>A member of the Pandas team will get back to you shortly.</description>
+        <primary_button>Back to home</primary_button>
+    </thank_you_page>
+    <our_story_page>
+        <title>Our Story</title>
+        <title_partner>Pandas Story</title_partner>
+        <header_title>Our&lt;br /&gt;Story</header_title>
+        <header_title_partner>Pandas&lt;br /&gt;Story</header_title_partner>
+        <article_header>Inspired by humans.&lt;br /&gt;Powered by tech.</article_header>
+        <article_content>Our smartphones do so much for us. They even bring us closer to our
+            next smartphone. And our next one. And the one after that. And so on.
+            But what happens each time we switch devices for a newer model? We
+            collect our own personal collection of devices. Believe us, we
+            checked: &lt;span&gt;around 1 billion smartphones are left unused! &lt;/span&gt;
+            So, whether it&#x27;s hidden away somewhere in our house or buried in a
+            junkyard, it&#x27;s still e-waste that needs to be managed in a sustainable
+            way. &lt;br /&gt;
+            &lt;br /&gt; &lt;span&gt;This may not come as news.&lt;/span&gt; &lt;br /&gt; &lt;br /&gt;
+            Do you know what did come as a surprise to us? If everything can be
+            done in &lt;span&gt;a matter of minutes&lt;/span&gt; smartphone in our hands (and
+            we will most likely find to be outdated in a year or so) shouldn&#x27;t
+            there be a convenient and sustainable way to get rid of used, broken,
+            or outdated smartphones? I mean, we couldn&#x27;t grasp the idea that there
+            was no easy way to do it. Just like there&#x27;s a real-time way to do
+            practically anything from a smartphone there must be a—— AHA! Right
+            there and then, &lt;span&gt;2020 became the year of Pandas&lt;/span&gt; 🎉 We set
+            out, myself Vratskides, (my partner in trade-in) to craft a software
+            solution allowing users to automatically trade in a smartphone, get
+            paid for it while also benefiting the planet. &lt;br /&gt;
+            &lt;br /&gt; This solution was destined to work through a custom wireless
+            identification process, eradicating all the hassle and awkwardness of
+            hand-to-hand trade-ins or long waits on offer updates and evaluations.
+            From day one of our Research and Development, we devoted ourselves to
+            streamlining the entire process making it super-fast and easy every
+            step of the way. We obsessed, we told ourselves we had to make it work
+            in 5 minutes. &lt;span&gt;So we got it down to 3&#x27;&lt;/span&gt; 🤘 And that was
+            only the beginning... Next, stop? Make trade-in available to as many
+            people as possible, by partnering with retailers and creating
+            frictionless user journeys across channels through next-gen tech and
+            AI.
+            &lt;br /&gt;
+            &lt;br /&gt; Just like that (almost automagically) we became a team of 30
+            awesome Pandas 🙌 with 70 locations in 7 cities and two countries,
+            within our very first year. And in that very year, approximately
+            10,000 trade-ins later, we saved 650 tons of CO2e and 1.8 tons of
+            e-waste.
+            &lt;br /&gt;
+            &lt;br /&gt; Humankind may have a long way to go when it comes to processing
+            e-waste but we are determined to do our part one trade-in at a time,
+            making the latest technology accessible to more and more people.
+            
+            &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;span&gt;Fanis Koutouvelis&lt;/span&gt;
+            &lt;br /&gt;
+            Founder of Pandas</article_content>
+    </our_story_page>
+    <our_manifesto_page>
+        <title>Our Manifesto</title>
+        <title_partner>Pandas Manifesto</title_partner>
+        <header_title>Our&lt;br /&gt;Manifesto</header_title>
+        <header_title_partner>Pandas&lt;br /&gt;Manifesto</header_title_partner>
+        <article_header>Inspired by humans.&lt;br /&gt;Powered by tech.</article_header>
+        <article_content>Around &lt;span&gt;1 billion smart devices are lying around switched off&lt;/span&gt; and unused. Meanwhile &lt;span&gt;3 billion people&lt;/span&gt; across the globe &lt;span&gt;don&#x27;t have access to the latest technology.&lt;/span&gt; This fosters unequal distribution. And what about all that e-waste? &lt;br /&gt;&lt;br /&gt;This is the world we live in.&lt;br /&gt;But how sustainable is this?&lt;br /&gt;Let&#x27;s rethink how we treat tech.&lt;br /&gt;We Pandas are here to maximize the life cycle of tech saving tons of extra Co2. It&#x27;s time to &lt;br /&gt; Bridge the technology gap &lt;br /&gt; Give back and receive more &lt;br /&gt;Create value from what&#x27;s already in our hands &lt;br /&gt;We&#x27;re revolutionizing the second-hand tech market.&lt;br /&gt;Because we rebel against the long process of trade-in, turning it into a 3&#x27; experience.&lt;br /&gt;We exist to give tech an extra ❤️,
+            &lt;br /&gt;
+            while people save 💰 and do good 🍃
+            &lt;br /&gt;
+            &lt;br /&gt;
+            We are Pandas.</article_content>
+    </our_manifesto_page>
+    <what_you_need_page>
+        <subtitle>Before we start.</subtitle>
+        <title>What you will need to evaluate your </title>
+        <list_item_1>
+            <title>Set up your FaceID or TouchID</title>
+            <description></description>
+        </list_item_1>
+        <list_item_2>
+            <title>Have access to a mirror</title>
+            <description>We know this may sound a bit strange at the moment :)</description>
+        </list_item_2>
+        <list_item_3>
+            <title>Stay in a quite place for 5&#x27;</title>
+            <description></description>
+        </list_item_3>
+        <list_item_4>
+            <title>Disconnect Bluetooth devices</title>
+            <description></description>
+        </list_item_4>
+        <lets_start>Let&#x27;s start</lets_start>
+        <footer_text>We respect your personal information.&lt;br/&gt;Read our </footer_text>
+        <privacy_policy_link>Privacy Policy</privacy_policy_link>
+    </what_you_need_page>
+    <box_edges_guard>Too close to the edges.</box_edges_guard>
+    <wrong_edge_left>Move phone a bit to the left</wrong_edge_left>
+    <wrong_edge_right>Move phone a bit to the right</wrong_edge_right>
+    <wrong_edge_top>Move phone higher</wrong_edge_top>
+    <wrong_edge_bottom>Move phone lower</wrong_edge_bottom>
+    <image_brightness_guard_dark>Image too dark.</image_brightness_guard_dark>
+    <image_brightness_guard_bright>Image too bright.</image_brightness_guard_bright>
+    <is_stabilized_guard>Perfect! Stay still.</is_stabilized_guard>
+    <object_detected_percentage_guard>Too far.</object_detected_percentage_guard>
+    <ai_loading>AI is loading</ai_loading>
+    <we_need_some_more_time>We need some more time</we_need_some_more_time>
+    <front_camera_page>
+        <skip_modal_title>Are you sure your camera doesn&#x27;t work?</skip_modal_title>
+        <evaluate_title>Front Camera Condition</evaluate_title>
+        <evaluate_description>Check the condition of your front camera using a clean mirror.</evaluate_description>
+        <evaluate_description_store>Check the condition of your front camera by detecting your face with it.</evaluate_description_store>
+        <footer_message>My front camera doesn&#x27;t work</footer_message>
+        <button>Check front camera</button>
+    </front_camera_page>
+    <allow_camera_page>
+        <title>Allow camera access</title>
+        <description>Required to take photos in order to assess the quality of your cameras.</description>
+        <description_store>Required to take photos in order to assess the quality of your cameras</description_store>
+        <privacy_message>We will never share photos taken from your device. Your data are safe and private.</privacy_message>
+        <privacy_message_store>No pictures will be taken </privacy_message_store>
+    </allow_camera_page>
+    <image_preview_page>
+        <heading>Happy with the photo?</heading>
+        <tooltip_message>Make sure the photo is clear and not blurred so we can evaluate the cosmetic condition of your phone fairly. Otherwise, you may run the risk of getting a lower offer.</tooltip_message>
+        <tooltip_alt>info</tooltip_alt>
+        <save>Save</save>
+        <retake>Retake</retake>
+        <f_camera_alt>Preview for front camera</f_camera_alt>
+        <b_camera_alt>Preview for back camera</b_camera_alt>
+    </image_preview_page>
+    <test_camera_page>
+        <modal>
+            <title>Oh snap...</title>
+            <description>If we don’t evaluate your Camera, we’ll have to give you lower trade in quote.</description>
+            <primary_button>Check camera</primary_button>
+        </modal>
+        <instructions>
+            <alt_img>Rotate phone</alt_img>
+            <title>Turn your device around</title>
+            <description>Turn your phone around, so the front-facing camera is pointing at a mirror.</description>
+        </instructions>
+        <instructions_store>
+            <title>Position your face within frame</title>
+            <description>A quick check that your front camera is working. Smile:)</description>
+            <no_pictures>No pictures taken!</no_pictures>
+        </instructions_store>
+    </test_camera_page>
+    <back_camera_page>
+        <skip_modal_title>Are you sure your camera doesn&#x27;t work?</skip_modal_title>
+        <evaluate_title>Back Camera condition</evaluate_title>
+        <evaluate_description>Check the condition of your back camera using a clean mirror. Please remove your case.</evaluate_description>
+        <evaluate_description_store>Check the condition of your back camera by  detcting an object inside the store. </evaluate_description_store>
+        <footer_message>My back camera doesn&#x27;t work</footer_message>
+    </back_camera_page>
+    <test_back_camera_page>
+        <modal>
+            <title>Oh snap...</title>
+            <description>If we don’t evaluate your Camera, we’ll have to give you lower trade in quote.</description>
+            <primary_button>Check camera</primary_button>
+        </modal>
+        <instructions>
+            <alt_img>Face the mirror</alt_img>
+            <title>Hold your device with the tip of your fingers</title>
+        </instructions>
+        <instructions_store>
+            <description>Point the camera to any object. Just wait for the AI to identify it.</description>
+            <no_pictures>No pictures taken!</no_pictures>
+        </instructions_store>
+    </test_back_camera_page>
+    <digitizer_page>
+        <skip_modal>
+            <title>Oh snap?...</title>
+            <description>If we don’t evaluate your touch screen, we’ll have to give you lower trade in quote.</description>
+            <button>Check digitizer</button>
+        </skip_modal>
+        <skip_modal_title>Are you sure your touch screen doesn&#x27;t work?</skip_modal_title>
+        <evaluate_title>Digitizer</evaluate_title>
+        <evaluate_description>Check the touch functionality of your screen.</evaluate_description>
+        <check_digitizer>Check digitizer</check_digitizer>
+        <footer_message>My touch screen is not fully functional</footer_message>
+    </digitizer_page>
+    <test_digitizer_page>
+        <instructions>
+            <title>Time to play!</title>
+            <description>Swipe the entire screen&lt;br /&gt; to reveal the hidden image.</description>
+        </instructions>
+    </test_digitizer_page>
+    <scratch_component>
+        <modal_swiping>
+            <title>Keep swiping!</title>
+            <description>You have to swipe your screen from edge to edge!</description>
+        </modal_swiping>
+        <modal_touch_not_working>
+            <title>It seems that your touch screen isn&#x27;t fully functional...</title>
+            <description>You have to swipe your screen from edge to edge!</description>
+        </modal_touch_not_working>
+    </scratch_component>
+    <multitouch_page>
+        <title>Multitouch gestures</title>
+        <description>Check the functionality of your screen&#x27;s multitouch gestures.</description>
+        <check_multitouch>Check  Multitouch</check_multitouch>
+        <footer_message>My screen’s multitouch doesn’t work</footer_message>
+        <skip_modal_title>Are you sure your multitouch doesn’t work?</skip_modal_title>
+    </multitouch_page>
+    <test_multitouch_page>
+        <instructions_two_fingers>Touch your screen &lt;br /&gt; with 2 fingers</instructions_two_fingers>
+        <instructions_three_fingers>Great! Now, touch your screen with 3 fingers</instructions_three_fingers>
+        <tap_to_start>Tap to start!</tap_to_start>
+        <title_two_fingers>Touch your screen &lt;br /&gt; with 2 fingers</title_two_fingers>
+        <title_three_fingers>Touch your screen &lt;br /&gt; with 3 fingers</title_three_fingers>
+        <retry_modal>
+            <title>I didn’t sense any touch...</title>
+            <description>You have to touch  the device with two fingers</description>
+            <skip_test>Skip this step</skip_test>
+        </retry_modal>
+        <fail_modal>
+            <title>It seems that screen multitouch isn’t fully functional...</title>
+        </fail_modal>
+    </test_multitouch_page>
+    <sound_performance_page>
+        <skip_modal_title>Are you sure your microphone doesn&#x27;t work?</skip_modal_title>
+        <evaluate_title>Sound performance</evaluate_title>
+        <evaluate_description>Unmute your phone and set volume &lt;strong&gt;to 100%.&lt;/strong&gt;&lt;br /&gt;&lt;strong&gt;Remember to stay in a quiet place.&lt;/strong&gt;</evaluate_description>
+        <check_sound>Check sound performance</check_sound>
+        <footer_message>My microphone doesn&#x27;t work</footer_message>
+    </sound_performance_page>
+    <allow_microphone_page>
+        <title>Allow microphone access</title>
+        <description>Required to record audio in order to assess the quality of your microphone.</description>
+        <privacy_message>We will never share recordings taken from your device. Your data are safe and private.</privacy_message>
+    </allow_microphone_page>
+    <test_sound_performance_page>
+        <skip_modal>
+            <button>Check sound performance</button>
+            <title>Oh snap?...</title>
+            <description>If we don&#x27;t evaluate your microphone, we&#x27;ll have to give you lower trade in quote.</description>
+        </skip_modal>
+        <retry_modal>
+            <primary_button>Retry</primary_button>
+            <link_button>Skip this step</link_button>
+            <title>Sorry, I didn&#x27;t catch that</title>
+            <description>Please check all the above</description>
+            <items_list>
+                <item_1>Unmute your phone</item_1>
+                <item_2>Set the volume to 100%</item_2>
+                <item_3>Make sure your smartphone is not connected to headsets or airpods</item_3>
+                <item_4>Make sure you turn down loud sounds from other devices</item_4>
+            </items_list>
+        </retry_modal>
+        <not_working_modal>
+            <title>It seems that your audio isn&#x27;t fully functional...</title>
+        </not_working_modal>
+        <content_volume_up>
+            <alt_img>Volume up</alt_img>
+            <title>Turn &lt;span&gt;the volume to 100%&lt;/span&gt;</title>
+            <description>&lt;span&gt;be sure you are in a quiet place and tap &quot;Start&quot;&lt;/span&gt;.</description>
+        </content_volume_up>
+        <content_volume_down>
+            <alt_img>Volume down</alt_img>
+            <title>Turn the &lt;strong&gt;volume down&lt;/strong&gt; at about 50%</title>
+            <description></description>
+        </content_volume_down>
+        <already_button>Start</already_button>
+    </test_sound_performance_page>
+    <face_id_page>
+        <skip_modal_title>Are you sure your Face ID doesn&#x27;t work?</skip_modal_title>
+        <setup_modal_title>It’s ok, you can set up your biometrics now!</setup_modal_title>
+        <setup_modal_description>Tap on the button to see how to set up your device’s biometrics</setup_modal_description>
+        <setup_modal_button>Set up biometrics</setup_modal_button>
+        <evaluate_title>Biometrics</evaluate_title>
+        <evaluate_description>Assess the biometrics functionality of your device.</evaluate_description>
+        <check_face_id>Check Biometrics</check_face_id>
+        <no_face_id>I haven’t set up my Biometrics</no_face_id>
+        <footer_message>Biometrics don’t work</footer_message>
+    </face_id_page>
+    <allow_face_id_page>
+        <img_alt>hardware buttons icon</img_alt>
+        <title>Allow biometrics access</title>
+        <description>Required access to test the functionality of your device&#x27;s biometrics.</description>
+        <privacy_message>We will never share biometric data taken from your device. Your data are safe and private.</privacy_message>
+    </allow_face_id_page>
+    <test_face_id_page>
+        <skip_modal>
+            <button>Check Face ID</button>
+            <title>Oh snap...</title>
+            <description>If we don’t evaluate your Face ID, we’ll have to give you lower trade in quote.</description>
+        </skip_modal>
+        <error_modal>
+            <button>Check  biometrics</button>
+            <return>Return to biometric options</return>
+            <title>It’s ok, you can test your biometrics now!</title>
+            <description>Tap on the button to test your device’s biometrics</description>
+        </error_modal>
+        <instructions>
+            <title>Tap on the icon</title>
+            <description>Tap on the Face ID icon to activate your smartphone’s biometrics.</description>
+        </instructions>
+        <fail_modal>
+            <primary_button>Retry</primary_button>
+            <link_button>Skip this step</link_button>
+            <title>Sorry I couldn’t test</title>
+            <description>Please check all the below</description>
+            <items_list>
+                <item_1>Set up your Face ID</item_1>
+                <item_2>Sign in to your Apple ID account</item_2>
+                <item_3>Turn On Sync on iCloud Passwords &amp; Keychain.</item_3>
+            </items_list>
+        </fail_modal>
+    </test_face_id_page>
+    <device_motion_page>
+        <evaluate_title>Sensors</evaluate_title>
+        <evaluate_description>Check the functionality of your device&#x27;s accelerometer and gyroscope.</evaluate_description>
+        <check_device_motion>Check  Sensors</check_device_motion>
+        <no_device_motion>My sensors don’t work</no_device_motion>
+        <skip_modal>
+            <title>Are you sure your sensors don’t work?</title>
+        </skip_modal>
+        <intro_modal>
+            <button>Tap to start!</button>
+            <title>Tilt your device</title>
+            <description>Try to hit all the marks with the ball</description>
+        </intro_modal>
+        <warning_modal>
+            <title>I didn’t sense any movement...</title>
+            <description>You have to tilt the device</description>
+        </warning_modal>
+        <fail_modal>
+            <title>It seems that your device&#x27;s sensors aren&#x27;t fully functional...</title>
+        </fail_modal>
+    </device_motion_page>
+    <test_device_motion_page>
+        <heading>Move the ball to hit the target</heading>
+        <no_device_motion>My sensors don’t work</no_device_motion>
+    </test_device_motion_page>
+    <screen_page>
+        <evaluate_title>Phone’s screen</evaluate_title>
+        <evaluate_description>Check for yellowings,  dead pixes or white dots on your screen</evaluate_description>
+        <check_screen>Check phone’s screen</check_screen>
+    </screen_page>
+    <test_yellowings_page>
+        <title>Screen Check</title>
+        <description>For 10&quot;, the screen will go white. Check if you see yellowings, white dots or cracks</description>
+        <check_yellowings>Tap to start</check_yellowings>
+        <end_evaluation>End evaluation</end_evaluation>
+    </test_yellowings_page>
+    <device_condition>
+        <perfect>Perfect</perfect>
+        <damaged>Damaged</damaged>
+        <continue>Continue</continue>
+        <try_again>Try again</try_again>
+    </device_condition>
+    <test_screen_page>
+        <title>What is your phone’s screen condition?</title>
+        <perfect_description>There are no yellowings, white dots or dead pixels</perfect_description>
+        <damaged_description>The screen has  yellowings, white dots or dead pixels</damaged_description>
+    </test_screen_page>
+    <body_frame_page>
+        <evaluate_title>Phone’s body frame</evaluate_title>
+        <evaluate_description>Check for dents, scratches  or cracks on your phone’s body frame. </evaluate_description>
+        <check_body>Check phone’s body</check_body>
+    </body_frame_page>
+    <test_body_frame_page>
+        <title>What is your phone’s body condition?</title>
+        <perfect_description>There are no dents or scratches or cracks</perfect_description>
+        <damaged_description>It has dents, scratches or cracks</damaged_description>
+    </test_body_frame_page>
+    <reveal_imei_page>
+        <title>Almost done!</title>
+        <description>One last thing! Please follow the next steps to reveal the IMEI number of your device.</description>
+        <help_list>
+            <title>Next steps</title>
+            <step_1>Tap the button to display your IMEI.</step_1>
+            <step_2>Call *#06#</step_2>
+            <step_3>Put your phone back in the drawer with this screen on.</step_3>
+        </help_list>
+        <button>Get IMEI</button>
+    </reveal_imei_page>
+    <reveal_imei_android_page>
+        <title>Please Dial</title>
+        <description>Leave this screen on and insert the device back into the drawer.</description>
+        <button>Open DialPad</button>
+        <instructions>* You may first delete any other code that may appear pre-filled e.g 0000</instructions>
+    </reveal_imei_android_page>
+    <imei_page>
+        <top_title_price>
+            <title>Submit your &lt;span&gt;IMEI&lt;/span&gt; to get an accurate price</title>
+            <description>Submit your &lt;span&gt;IMEI&lt;/span&gt; to&lt;br /&gt;get an accurate price</description>
+        </top_title_price>
+        <top_title>
+            <title>Almost done!</title>
+            <title_at_store>Submit IMEI</title_at_store>
+            <description>In order to finallize the assement, we need you to provide us with your device’s IMEI. Find the IMEI number, copy it, and paste it below.</description>
+        </top_title>
+        <input>
+            <label>IMEI</label>
+            <placeholder>Enter your IMEI number</placeholder>
+            <valid_imei>Valid IMEI number.</valid_imei>
+            <invalid_imei>Please type a valid IMEI</invalid_imei>
+        </input>
+        <get_imei>Get IMEI</get_imei>
+        <submit_imei>Submit IMEI</submit_imei>
+        <instructions>*Maximum price for highest model capacity</instructions>
+        <identifying_device>Identifying device...</identifying_device>
+        <help_list>
+            <title>How to find IMEI</title>
+            <step_1_android>Go to &lt;strong&gt;Settings &gt; About phone&lt;/strong&gt;</step_1_android>
+            <step_1_ios>Press &lt;strong&gt;Get IMEI&lt;/strong&gt; button</step_1_ios>
+            <step_2>&lt;strong&gt;Find&lt;/strong&gt; your IMEI number</step_2>
+            <step_3>&lt;strong&gt;Copy&lt;/strong&gt; IMEI, and &lt;strong&gt;paste&lt;/strong&gt; it above</step_3>
+        </help_list>
+        <identification_error>
+            <INVALID_DEVICE_IDENTIFIER>INVALID_DEVICE_IDENTIFIER</INVALID_DEVICE_IDENTIFIER>
+            <DEVICE_ALREADY_BOUGHT>DEVICE_ALREADY_BOUGHT</DEVICE_ALREADY_BOUGHT>
+            <DEVICE_CAPACITY_MISSING>DEVICE_CAPACITY_MISSING</DEVICE_CAPACITY_MISSING>
+            <EXTERNAL_INVALID_DEVICE_IDENTIFICATION>EXTERNAL_INVALID_DEVICE_IDENTIFICATION</EXTERNAL_INVALID_DEVICE_IDENTIFICATION>
+        </identification_error>
+    </imei_page>
+    <status_message_shell>
+        <message_1>We successfully&lt;/br&gt; identified your device!</message_1>
+        <message_2>Just a moment,&lt;/br&gt;we’re preparing your quote.</message_2>
+    </status_message_shell>
+    <get_quote_page>
+        <top_title>
+            <title>Get your quote.</title>
+            <description>Enter your email so as to forward our offer to your inbox as too.</description>
+        </top_title>
+        <input>
+            <label>E-mail</label>
+            <placeholder>E-mail</placeholder>
+            <valid_email>E-mail valid</valid_email>
+            <invalid_email>Please type a valid E-mail</invalid_email>
+        </input>
+        <privacy_policy>Pandas respects your personal data.</privacy_policy>
+        <privacy_policy_link>Privacy Policy</privacy_policy_link>
+        <view_offer>View offer</view_offer>
+    </get_quote_page>
+    <offer_page>
+        <loader>Preparing your offer</loader>
+        <modal_title>We are sorry, we don’t buy your smartphone at the moment.</modal_title>
+        <trade_in>Trade in for up to</trade_in>
+        <button_action_1>Trade in now</button_action_1>
+        <button_action_2>Do you have promo code?</button_action_2>
+        <button_voucher>Voucher up to </button_voucher>
+        <button_cash>Cash Deposit up to </button_cash>
+        <final_price>The final price will be determined after the final evaluation of the device. &lt;strong&gt;You have %@ days to claim the offer&lt;/strong&gt;.</final_price>
+        <binding_offer>Need a final offer?</binding_offer>
+        <device_new>Your device is &quot;Like New&quot;</device_new>
+        <detailed_report>Detailed report</detailed_report>
+        <evaluation_list>
+            <digitizer>Digitizer</digitizer>
+            <front-camera-ai>Front camera</front-camera-ai>
+            <back-camera-ai>Back camera</back-camera-ai>
+            <question-screen-blemishes>Screen</question-screen-blemishes>
+            <question-body-frame>Phone’s Body Frame</question-body-frame>
+            <audio>Speakers</audio>
+            <multitouch>Multitouch</multitouch>
+            <biometrics>Face ID / Touch ID</biometrics>
+            <gyroscope>Sensors</gyroscope>
+            <speakers>Speakers</speakers>
+            <face_id_touch_id>Face ID / Touch ID</face_id_touch_id>
+            <sensors>Sensors</sensors>
+            <front_camera>Front camera</front_camera>
+            <back_camera>Back camera</back_camera>
+        </evaluation_list>
+        <info_price_title>How we calculate our prices?</info_price_title>
+        <info_price_description>The offer we give you is calculated based on the condition of your device, as well as characteristics such as its brand, the model, and its capacity. Additionally, in collaboration with the biggest marketplaces of refurbished devices, we check the demand of your phone in the market. We Pandas keep a fee (avg. 10% of the price offered) to evaluate and transport your device and you get paid in less than 3&#x27;.</info_price_description>
+        <info_final_offer_title>What is a &quot;Final Offer&quot;?</info_final_offer_title>
+        <info_final_offer_description>&quot;Final Offer&quot; is the most accurate price that Pandas can offer after inspecting the device&#x27;s front and back cosmetics due to the online grading process. To get a &quot;Binding Offer&quot;, customers should ship the device by mail or visit a Pandas Partner&#x27;s associate for a final inspection using Pandas technology.</info_final_offer_description>
+        <info_promo_title>Please enter your promo code</info_promo_title>
+        <promo_applied>Promo code applied </promo_applied>
+        <info_input_placeholder>Type promo code</info_input_placeholder>
+        <info_submit>Submit</info_submit>
+        <faulty>Faulty</faulty>
+        <is_not_working>Is not working</is_not_working>
+        <evaluation_warning>Your offer remains valid for %@ days so that you can complete your trade in at store. If you wish to run a new round of diagnostic checks you can click below. The updated diagnostic results will override any previous ones.</evaluation_warning>
+        <exit_evaluation>Retake Evaluation</exit_evaluation>
+    </offer_page>
+    <mirror_walkthrough_page>
+        <title>What you will need before you start</title>
+        <slide_1>
+            <title>Have access to a mirror</title>
+        </slide_1>
+        <slide_2>
+            <title>Stand  in a bright room</title>
+        </slide_2>
+        <slide_3>
+            <title>Avoid covering the device with your fingers</title>
+        </slide_3>
+        <slide_4>
+            <title>Remove cases, damaged screen protectors etc</title>
+        </slide_4>
+        <button>Start now!</button>
+    </mirror_walkthrough_page>
+    <front_condition_page>
+        <title>Front Condition</title>
+        <description>Check the condition of your front camera using a clean mirror.</description>
+        <button>Check front condition</button>
+        <footer_message>My front camera doesn&#x27;t work</footer_message>
+    </front_condition_page>
+    <back_condition_page>
+        <title>Back Condition</title>
+        <description>Check the condition of your back camera  using a clean mirror. Please remove your case.</description>
+        <button>Check back condition</button>
+        <footer_message>My back camera doesn’t work</footer_message>
+    </back_condition_page>
+    <grading_answers_list_page>
+        <title>Let’s try again!</title>
+        <description>Improve the items on the list bellow so we can have better photos of your device</description>
+        <answers>
+            <out-of-focus>Please ensure the photo of the device is clear and in focus.</out-of-focus>
+            <brightness>Please capture device photo in brighter environment.</brightness>
+            <device-not-visible>Please ensure the device is clearly visible on the captured photo</device-not-visible>
+            <accessories>Please remove visible stickers and/or damaged screen protectors/covers</accessories>
+            <device-holding>Please ensure your hands do not cover the front screen of the device.</device-holding>
+        </answers>
+        <button>Retake photo</button>
+    </grading_answers_list_page>
+    <locate_me_page>
+        <top_title>
+            <title>That&#x27;s great!</title>
+            <description>Enter your preferred trade-in address. We will help you trade in your smartphone in the most convenient and fast way.</description>
+        </top_title>
+        <input>
+            <label>Address</label>
+            <placeholder>Enter address</placeholder>
+        </input>
+        <locate_me>Automatically locate me</locate_me>
+    </locate_me_page>
+    <confirm_address_page>
+        <title>Find stores</title>
+        <subtitle>where you can &lt;strong&gt;trade-in&lt;/strong&gt; your device</subtitle>
+        <confirm_address>Confirm address</confirm_address>
+    </confirm_address_page>
+    <store_locations_page>
+        <title>Find stores</title>
+        <subtitle>where you can &lt;strong&gt;trade-in&lt;/strong&gt; your device</subtitle>
+        <return_home>Return to Home screen</return_home>
+    </store_locations_page>
+    <trade_option_page>
+        <title>Select trade in option.</title>
+        <option_home>
+            <title>Trade in from home</title>
+            <description>A Pandas rider will pick up your smartphone from your preferred location.</description>
+        </option_home>
+        <option_courier>
+            <title>Drop off at Courier</title>
+            <description>Ship your phone to us&lt;br&gt;via courier partners.</description>
+        </option_courier>
+        <option_atm>
+            <title>Trade in at a Pandas kiosk</title>
+            <description>Drop off your device at the nearest Pandas kiosk.</description>
+        </option_atm>
+        <option_courier_at_store>
+            <title>Drop off @ Courier</title>
+            <description>We will arrange a courier to  pick up your device from your place. Your device will be evaluated within a day.</description>
+        </option_courier_at_store>
+        <option_at_store>
+            <title>Drop off  @ Store</title>
+            <description>Drop off your device at the nearest %@ store and get a voucher instantly!</description>
+        </option_at_store>
+    </trade_option_page>
+    <trade-in-pandas-kiosks-page>
+        <title>Pandas kiosks</title>
+        <button_store>Continue @ Store</button_store>
+    </trade-in-pandas-kiosks-page>
+    <time_option>
+        <morning>Morning</morning>
+        <evening>Evening</evening>
+    </time_option>
+    <courier_page>
+        <title>Courier</title>
+        <description>We’ll contact you as soon as we receive your device.</description>
+        <fill_in_your_details>Fill in your details</fill_in_your_details>
+        <a_courier_picks_up_your_device>A courier picks up your device</a_courier_picks_up_your_device>
+        <you_get_an_offer>You get an offer, right after we receive your device</you_get_an_offer>
+        <you_are_paid_instantly>If you accept, you are paid instantly. If not, we return your device at no cost.</you_are_paid_instantly>
+        <continue_to_the_form>Continue to the form</continue_to_the_form>
+        <details>
+            <title>Fill in your details</title>
+            <description>We will contact you as soon as we receive your device.</description>
+        </details>
+        <input_full_name>Full Name</input_full_name>
+        <input_first_name>First Name</input_first_name>
+        <input_last_name>Last Name</input_last_name>
+        <input_phone>Phone number</input_phone>
+        <input_date>Date</input_date>
+        <input_time>Time</input_time>
+        <instructions_1>Choose a date and time for an appointment with a courier.</instructions_1>
+        <instructions_2>*We will contact you to book an appointment at your convenient time</instructions_2>
+        <instructions_3>Pandas is not responsible for any damage or breakage that may be caused to the device during it&#x27;s transport by the courier service.</instructions_3>
+        <terms_conditions>Ι accept </terms_conditions>
+        <terms_conditions_link> Terms &amp; Conditions</terms_conditions_link>
+        <privacy_policy>Ι accept </privacy_policy>
+        <privacy_policy_link> Privacy Policy</privacy_policy_link>
+        <device_ownership>Ι accept </device_ownership>
+        <device_ownership_link> device ownership</device_ownership_link>
+        <button>Confirmation</button>
+    </courier_page>
+    <schedule_pickup_page>
+        <title>Schedule pick-up.</title>
+        <details>
+            <title>Trade-in details</title>
+            <description>When a Pandas Rider could visit you and complete smartphone trade in?</description>
+        </details>
+        <input_date>
+            <label>Date</label>
+        </input_date>
+        <input_timeslot>
+            <label>Timeslot</label>
+        </input_timeslot>
+        <input_name>
+            <label>Full Name</label>
+            <placeholder>Full Name</placeholder>
+        </input_name>
+        <input_address>
+            <label>Bell Name / Floor</label>
+            <placeholder>Bell Name / Floor</placeholder>
+        </input_address>
+        <input_phone>
+            <label>Phone number</label>
+            <placeholder>Phone number</placeholder>
+        </input_phone>
+        <contact_details>
+            <title>Contact details</title>
+            <description>Help Pandas Rider easily reach out to you.</description>
+        </contact_details>
+    </schedule_pickup_page>
+    <tradein_thank_you_page>
+        <title>Thank you!</title>
+        <description>We are now ready to receive your device. Find a courier in your neighborhood and complete the process.</description>
+        <green_content>
+            <title>Important:</title>
+            <description>You must download your personal Pandas card and send it with your device package.</description>
+        </green_content>
+        <button>Download Pandas card </button>
+        <a_copy>A copy of the card has also been sent to your email</a_copy>
+        <next_steps>
+            <title>Next Steps:</title>
+            <step_1>
+                <top>Send us your device along with your personal card to Pandas headquarters</top>
+                <bottom>Pandas address: 20 Haritos, Athens 10675</bottom>
+            </step_1>
+            <step_2>
+                <top>Receive a final offer immediately after receiving and evaluating it.</top>
+                <bottom>In case you are not satisfied with the offer, we will send your device back to you. Ιn this case the charge is on us.</bottom>
+            </step_2>
+            <step_3>
+                <top>Get paid in your account,</top>
+                <bottom>it usually takes 1-3 business days</bottom>
+            </step_3>
+        </next_steps>
+        <footer>
+            <title>Do you have questions?</title>
+            <description>Pandas is by your side!</description>
+            <contact_us>Contact us:</contact_us>
+        </footer>
+    </tradein_thank_you_page>
+    <thank_you_at_store_page>
+        <title>Thank you!</title>
+        <description>Now leave this screen as it is and put your device in the drawer to continue</description>
+        <warning>Tap to keep the screen on</warning>
+    </thank_you_at_store_page>
+    <thank_you_store_page>
+        <title>Thank you!</title>
+        <return_home>Return to Home screen</return_home>
+    </thank_you_store_page>
+    <signout_icloud_page>
+        <instructions>
+            <title>How to sign out of iCloud</title>
+            <item_1>Go to Settings &gt; [your name]</item_1>
+            <item_2>Scroll down to the bottom</item_2>
+            <item_3>Tap Sign Out</item_3>
+            <item_4>Enter your Apple ID password and tap Turn Off</item_4>
+        </instructions>
+        <top_title>
+            <title>Sign out of iCloud.</title>
+            <description>Contacts, photos, calendars, or any other iCloud information will be removed from your device, but will remain in iCloud.</description>
+        </top_title>
+        <walkthrough>
+            <slide_1>Go to Settings and tap on your name</slide_1>
+            <slide_2>Scroll down to the bottom and tap Sign Out</slide_2>
+        </walkthrough>
+        <already_signed_out>I have already signed out of iCloud</already_signed_out>
+        <goto_settings>Go to Settings</goto_settings>
+    </signout_icloud_page>
+    <atm_dropoff_page>
+        <top_title>
+            <title>Pandas kiosk drop-off.</title>
+            <description>Drop off your device at the nearest Pandas Kiosk and complete trade-in, in just 1&#x27;.</description>
+        </top_title>
+        <modal>
+            <title>Are you sure?</title>
+            <resume_tradein>No, resume trade-in</resume_tradein>
+            <go_back>Return to home</go_back>
+        </modal>
+        <view_pandas>View Pandas kiosks</view_pandas>
+        <return_home>Return to Home screen</return_home>
+    </atm_dropoff_page>
+    <label_page>
+        <title>Trade in Label</title>
+        <pick_up>Pick up</pick_up>
+        <copy_label>A copy of your label is also sent to your email</copy_label>
+        <add_calendar>Add to my Calendar</add_calendar>
+        <print_label>Print label</print_label>
+    </label_page>
+    <enter_iban_page>
+        <top_title>
+            <title>Enter your IBAN</title>
+            <description>Enter your IBAN in order to  deposit you the trade in money once the process is finalized.</description>
+        </top_title>
+        <input_iban>
+            <placeholder>Enter IBAN</placeholder>
+            <label>IBAN</label>
+        </input_iban>
+    </enter_iban_page>
+    <whats_next_page>
+        <signout_icloud>Sign out of iCloud</signout_icloud>
+        <courier>
+            <description>Before dropping off device at a courier station, you need to remove all personal information from your smartphone. Here’s how.</description>
+            <footer>Above steps are mandatory in order to finalize you smartphone trade in.</footer>
+        </courier>
+        <atm>
+            <description>Before dropping off device at a Pandas ATM, you need to remove all personal information from your smartphone. Here’s how.</description>
+            <footer>Above steps are mandatory in order to receive, at a Pandas ATM, the trade in quote we offered you.</footer>
+        </atm>
+        <home>
+            <description>Before confirming your appointment with our Pandas Rider, you need to remove all your personal information from your smartphone. Here’s how.</description>
+            <footer>Above steps are mandatory in order to schedule Pandas Rider pick up and finalize trade in.</footer>
+        </home>
+        <icloud>
+            <title>Sign out of iCloud</title>
+            <description>When you sign out, any data stored in iCloud will be removed from your device but will remain in iCloud.</description>
+        </icloud>
+        <pandas>
+            <title>Install Pandas Profile</title>
+            <description>Add your device in Pandas Device Management System, so we can perform a factory reset on your smartphone.</description>
+        </pandas>
+        <iban>
+            <title>Give us your IBAN</title>
+            <description>Once the process is finalized, we will deposit you the trade in money at this bank account.</description>
+        </iban>
+    </whats_next_page>
+    <all_set_page>
+        <top_title>You’re all set!</top_title>
+        <you_get>You&#x27;ll get up to</you_get>
+        <home>
+            <description_1>A Pandas Rider will visit you on </description_1>
+            <description_2> in order to finalize trade in.</description_2>
+        </home>
+        <courier>
+            <description>You are now ready to visit one of our courier partner stations and drop off your device.</description>
+        </courier>
+        <atm>
+            <description>You are now ready to visit a Pandas ATM, drop off your device, and finalize trade in.</description>
+        </atm>
+        <instructions>
+            <sim_card>
+                <title>Remove SIM card</title>
+                <description>Remove any SIM cards, cases, and screen protectors.</description>
+            </sim_card>
+            <iban>
+                <title>Know your IBAN number</title>
+                <description>Have your IBAN number or credit card with you and instantly get paid for your device trade in.</description>
+            </iban>
+            <print_label>
+                <title>Print trade in label</title>
+                <description>Print label and stick it on the courier package that includes your device.</description>
+            </print_label>
+            <wait_call>
+                <title>Wait a call from us</title>
+                <description>Once we receive your device from courier partner and physically check it, we will call you in order to finalize trade in.</description>
+            </wait_call>
+            <battery>
+                <title>Battery at least 5%</title>
+                <description>Your smartphone is turned on and has more than 5% battery.</description>
+            </battery>
+            <turn_off>
+                <title>Turn off Find my iPhone</title>
+                <description>Turn off Fund My iPhone from the device.</description>
+            </turn_off>
+            <factory_reset>
+                <title>Factory reset</title>
+                <description>Do a factory reset to erase all data and settings from mobile.</description>
+            </factory_reset>
+        </instructions>
+        <primary_button>Return to homescreen</primary_button>
+        <find_atm>Find a Pandas ATM</find_atm>
+        <view_label>View label</view_label>
+        <find_courier>Find a courier station</find_courier>
+        <return_home>Return to Home screen</return_home>
+    </all_set_page>
+    <success_messages>
+        <front_camera>Bravo!</front_camera>
+        <back_camera>Great!</back_camera>
+        <digitizer>Amazing!</digitizer>
+        <multitouch>Beautiful!</multitouch>
+        <sound>Sounds good!</sound>
+        <face_id>Beautiful!</face_id>
+        <device_motion>Amazing!</device_motion>
+        <device_condition>Thanks</device_condition>
+    </success_messages>
+    <personal_info_page>
+        <title>Personal info</title>
+        <description>Enter your personal info to continue</description>
+        <input_full_name>Full Name</input_full_name>
+        <input_email>E-mail</input_email>
+        <input_phone>Phone</input_phone>
+    </personal_info_page>
+</root>
