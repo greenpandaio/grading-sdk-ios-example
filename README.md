@@ -1,4 +1,3 @@
-# grading-sdk-ios-podspec
 # Using the Pandas Grading SDK
 
 ## iOS Project Requirements
@@ -16,70 +15,21 @@ Therefore the app needs to include in the `Info.plist` file the following items:
 - Privacy - Microphone Usage Description
 
 ## Installing the library
+### Swift Package Manager
+In the project's Package Dependencies add a new dependency for url https://github.com/greenpandaio/grading-sdk-ios-spm and set the desired version.
 
-The SDK is available through Cocoapods, via a private trunk repository
+After the PandasGradingSDK package is fetched, drag and drop the PandasGradingSDK.bundle from the package contents folder to the project root  checking "Copy items if needed".
+Then include it in the project's target(Project settings -> targets -> Frameworks, Libraries & Embedded Content -> Add PandasGradingSDK).
 
-### Cocoapods
 
-#### Prerequisites
-
-Install Cocoapods gem
-
-#### Cocoapods private trunk setup
-
-Add the private trunk repo to your local Cocoapods installation, using the command:
-
-```
-pod repo add {specs_trunk_name} {repo_url}
-```
-
-#### Adding the dependency
-
-Create a new iOS project. Open the terminal and run `pod init` inside the path of the iOS Project.
-
-Add the source of the private trunk repository in the Podfile file newly created.
-
-```
-source 'repo_url'
-```
-
-Add the pod and then run `pod install` inside the terminal
-
-```
-pod PandasGradingSDK
-```
-
-**Sample**
-
-A Podfile integrating the PandasGradingSDK should look like this
-
-```
-platform :ios, '12.0'
-
-source 'https://github.com/CocoaPods/Specs.git'
-source 'https://github.com/greenpandaio/grading-sdk-ios-podspec.git'
-
-target 'PandasExample' do
-  # Comment the next line if you don't want to use dynamic frameworks
-  use_frameworks!
-
-  pod 'PandasGradingSDK'
-
-  target 'PandasExampleTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'PandasExampleUITests' do
-    # Pods for testing
-  end
-
-end
-```
+For the CocoaPods legacy installation refer to [the cocoa pod installation instructions](CocoaPodsInstall.md)
 
 ## Configuring the SDK
 
-The SDK is configured using the `configure` public method of `PandasGrading` shared instance
+Before starting the SDK you need to call the `configure` public method of `PandasGrading` shared instance
+Having a configuration file (config.json or any other name) is mandatory and should be bundled along with your app's assets.
+
+colorConfig , fontConfig , stringsURL are optional and should be provided if you want to override the default values.
 
 **Sample**
 
@@ -123,7 +73,7 @@ The config properties are:
 
 **Sample**
 
-A sample json to include in a .json file
+The config.json should have the following format.
 
 ```
 {
