@@ -1,34 +1,19 @@
 {
     "partner": {
-        "name": "greenpanda",
+        "code": "panas",
+        "name": "pandas",
         "flow": "pandas",
-        "storeLocationsURL": "https://pandas.io/el-GR/map",
+        "storeLocationsURL": "https://www.t-mobile.com/stores/locator",
         "id": "eb7c5e49-a4af-4426-93e4-4d1dd800b9ad"
     },
     "assessments": [
-        "digitizer",
-        "sound-performance",
-        "multitouch",
-        "face-id",
-        "device-motion",
-        "front-camera",
-        "back-camera"
+        "self-device-turns-on",
+        "cosmetic-grading",
+        "GroupScreenTests",
+        "sound-performance"
     ],
-    "colors": { "primary": "#1A1A1A" },
-    "email_submission": true,
-    "drop_off_options": ["AT_STORE", "COURIER_AT_STORE"],
-    "tutorial": true,
-    "impact": true,
-    "manifesto": true,
-    "our_story": true,
-    "faq": true,
-    "contact_us": true,
-    "contact_us_email": "https://hook.eu1.make.com/ee2twfux18a5pg1ei7n0kkzmd4h4agrz",
-    "social_media": {
-        "instagram": "https://www.instagram.com/pandas.io/",
-        "facebook": "https://www.facebook.com/pandasHQ/",
-        "youtube": "https://www.youtube.com/channel/UCZlgTN_61nkmUTS9LLi9yEg/",
-        "tiktok": "https://www.tiktok.com/@pandas_io/",
-        "linkedin": "https://www.linkedin.com/company/wearepandas/"
-    },
+    "colors": { "primary": "#E20074" },
+    "email_submission": false,
+    "drop_off_options": ["AT_STORE"],
+    "privacy": true
 }

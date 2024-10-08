@@ -10,6 +10,8 @@ import PandasGradingSDK
 @main
 struct IosSDKIntegrationApp: App {
     
+    var pandasIntegration = PandasIntegration()
+    
     init() {
         configureGradingSDK()
     }
@@ -19,6 +21,7 @@ struct IosSDKIntegrationApp: App {
                                        fontConfig: nil,
                                        stringsURL: Bundle.main.url(forResource: "Strings-en", withExtension: "xml"),
                                        configURL: Bundle.main.url(forResource: "config", withExtension: "json"))
+        PandasGrading.shared.delegate = pandasIntegration
     }
     
     @State var isPresented = false
@@ -65,4 +68,10 @@ struct IosSDKIntegrationApp: App {
         
     }
      
+}
+
+class PandasIntegration: PandasGradingDelegate {
+    func eligibilityFlowEnded(result: EligibilityFlowResult) {
+        print("\n\neligibility flow ended with result: \(result)\n\n")
+    }
 }

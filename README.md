@@ -304,3 +304,20 @@ PandasGrading.shared.startGrading(navigationController: gradingNavigationControl
 gradingNavigationController.modalPresentationStyle = .overFullScreen
 present(gradingNavigationController, animated: true)
 ```
+
+## Eligibility flow - Results output
+The the eligibility flow completion handling is done by implementing the PandasGradingDelegate protocol. The instance of the class implementing the protocol must be set on the PandasGrading shared instance delegate property. The protocol contains a method which provides an EligibilityFlowResult parameter, which can have the following values: success, failed or skipped.
+
+`public protocol PandasGradingDelegate: AnyObject {
+    func eligibilityFlowEnded(result: EligibilityFlowResult)
+}`
+
+for example
+
+```
+class PandasIntegration: PandasGradingDelegate {
+    func eligibilityFlowEnded(result: EligibilityFlowResult) {
+        print("\n\neligibility flow ended with result: \(result)\n\n")
+    }
+}
+```

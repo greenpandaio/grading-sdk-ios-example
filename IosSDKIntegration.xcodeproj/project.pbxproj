@@ -7,11 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A5CB5002A69679C00B39BB1 /* Strings-el.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2A5CB4FF2A69679C00B39BB1 /* Strings-el.xml */; };
-		2AB75DA12C89C8A100AFD950 /* PandasGradingSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2AB75DA02C89C8A100AFD950 /* PandasGradingSDK.bundle */; };
+		2A3DD9012CB5894800A5D981 /* PandasGradingSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2A3DD9002CB5894800A5D981 /* PandasGradingSDK.bundle */; };
 		2AB75DA62C89CDC000AFD950 /* PandasGradingSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 2AB75DA52C89CDC000AFD950 /* PandasGradingSDK */; };
 		2ABDE3122A40551F00A6B937 /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = 2ABDE3112A40551F00A6B937 /* config.json */; };
-		2ABDE3162A40740700A6B937 /* Strings.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2ABDE3152A40740700A6B937 /* Strings.xml */; };
 		2AD068632A3B24D300F4BCAB /* IosSDKIntegrationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD068622A3B24D300F4BCAB /* IosSDKIntegrationApp.swift */; };
 		2AD068652A3B24D300F4BCAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD068642A3B24D300F4BCAB /* ContentView.swift */; };
 		2AD068672A3B24D400F4BCAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AD068662A3B24D400F4BCAB /* Assets.xcassets */; };
@@ -19,7 +17,6 @@
 		2AD068742A3B24D400F4BCAB /* IosSDKIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD068732A3B24D400F4BCAB /* IosSDKIntegrationTests.swift */; };
 		2AD0687E2A3B24D400F4BCAB /* IosSDKIntegrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD0687D2A3B24D400F4BCAB /* IosSDKIntegrationUITests.swift */; };
 		2AD068802A3B24D500F4BCAB /* IosSDKIntegrationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD0687F2A3B24D500F4BCAB /* IosSDKIntegrationUITestsLaunchTests.swift */; };
-		2AE848352AA744FF004240B2 /* Strings-en.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2AE848342AA744FF004240B2 /* Strings-en.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,12 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A3DD9002CB5894800A5D981 /* PandasGradingSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PandasGradingSDK.bundle; sourceTree = "<group>"; };
 		2A518DC42A3CA38600A9C2D1 /* IosSDKIntegration.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IosSDKIntegration.entitlements; sourceTree = "<group>"; };
 		2A518DC52A3CA5A600A9C2D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		2A5CB4FF2A69679C00B39BB1 /* Strings-el.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Strings-el.xml"; sourceTree = "<group>"; };
-		2AB75DA02C89C8A100AFD950 /* PandasGradingSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PandasGradingSDK.bundle; sourceTree = "<group>"; };
 		2ABDE3112A40551F00A6B937 /* config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = config.json; sourceTree = "<group>"; };
-		2ABDE3152A40740700A6B937 /* Strings.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Strings.xml; sourceTree = "<group>"; };
 		2AD0685F2A3B24D300F4BCAB /* IosSDKIntegration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IosSDKIntegration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AD068622A3B24D300F4BCAB /* IosSDKIntegrationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IosSDKIntegrationApp.swift; sourceTree = "<group>"; };
 		2AD068642A3B24D300F4BCAB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,7 +51,6 @@
 		2AD068792A3B24D400F4BCAB /* IosSDKIntegrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IosSDKIntegrationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AD0687D2A3B24D400F4BCAB /* IosSDKIntegrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IosSDKIntegrationUITests.swift; sourceTree = "<group>"; };
 		2AD0687F2A3B24D500F4BCAB /* IosSDKIntegrationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IosSDKIntegrationUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		2AE848342AA744FF004240B2 /* Strings-en.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Strings-en.xml"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,10 +110,7 @@
 		2AD068612A3B24D300F4BCAB /* IosSDKIntegration */ = {
 			isa = PBXGroup;
 			children = (
-				2AB75DA02C89C8A100AFD950 /* PandasGradingSDK.bundle */,
-				2AE848342AA744FF004240B2 /* Strings-en.xml */,
-				2A5CB4FF2A69679C00B39BB1 /* Strings-el.xml */,
-				2ABDE3152A40740700A6B937 /* Strings.xml */,
+				2A3DD9002CB5894800A5D981 /* PandasGradingSDK.bundle */,
 				2A518DC52A3CA5A600A9C2D1 /* Info.plist */,
 				2A518DC42A3CA38600A9C2D1 /* IosSDKIntegration.entitlements */,
 				2AD068622A3B24D300F4BCAB /* IosSDKIntegrationApp.swift */,
@@ -266,12 +257,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2ABDE3162A40740700A6B937 /* Strings.xml in Resources */,
-				2AE848352AA744FF004240B2 /* Strings-en.xml in Resources */,
+				2A3DD9012CB5894800A5D981 /* PandasGradingSDK.bundle in Resources */,
 				2AD0686A2A3B24D400F4BCAB /* Preview Assets.xcassets in Resources */,
-				2A5CB5002A69679C00B39BB1 /* Strings-el.xml in Resources */,
 				2AD068672A3B24D400F4BCAB /* Assets.xcassets in Resources */,
-				2AB75DA12C89C8A100AFD950 /* PandasGradingSDK.bundle in Resources */,
 				2ABDE3122A40551F00A6B937 /* config.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -479,6 +467,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IosSDKIntegration",
+				);
 				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = io.pandas.IosSDKIntegration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -517,6 +509,10 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IosSDKIntegration",
 				);
 				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = io.pandas.IosSDKIntegration;

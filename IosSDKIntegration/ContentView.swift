@@ -15,7 +15,7 @@ struct ContentView: View {
     
     var body: some View {
         Button("Start Pandas Grading SDK") {
-            gradingFlow = .home
+            gradingFlow = .eligibility
             sessionId = nil
             isPresented = true
         }
@@ -50,3 +50,4 @@ struct SDKView: UIViewControllerRepresentable {
         // Update the view controller if needed
     }
 }
+
