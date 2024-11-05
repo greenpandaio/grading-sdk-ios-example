@@ -1,17 +1,15 @@
 {
   "images" : [
     {
-      "filename" : "leafs-bg.png",
+      "filename" : "digitizer-image.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "leafs-bg@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "leafs-bg@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

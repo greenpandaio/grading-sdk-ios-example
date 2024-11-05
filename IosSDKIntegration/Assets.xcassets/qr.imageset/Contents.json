@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "digitizer-test-image.png",
+      "filename" : "qr.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "digitizer-test-image@2x.png",
+      "filename" : "Frame 1073716546.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "digitizer-test-image@3x.png",
+      "filename" : "Frame 1073716547.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

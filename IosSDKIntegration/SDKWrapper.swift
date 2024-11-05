@@ -10,22 +10,22 @@ public class SDKWrapper {
         let gradingSDKConfig = GradingSDKConfig(
             environment: .staging,
             partner: Partner(
-                id: "eb7c5e49-a4af-4426-93e4-4d1dd800b9ad",
-                name: "pandas",
-                code: "pandas"
+                id: "82562551-eb28-4801-a0ca-e3b5c79c5101",
+                name: "T mobile",
+                code: "t_mobile_demo"
             ),
             theme: Theme(
                 colors: ThemeColors(
-                    mainColor: "#222222"
+                    mainColor: "#E20074"
                 ),
                 images: ThemeImages(
-                    splashScreen: UIImage(named: "splash-screen"),
-                    digitizer: UIImage(named: "digitizer-test-image"),
-                    qrLogo: UIImage(named: "AppIcon")
+                    splashScreen: nil,
+                    digitizer: UIImage(named: "digitizer-image"),
+                    qrLogo: UIImage(named: "qr")
                 ),
                 fonts: ThemeFonts( // UIFont supported font family
-                    primary: "Helvetica",
-                    secondary: "Helvetica"
+                    primary: "SF Pro",
+                    secondary: "TeleNeo"
                                  ),
                 customStrings: nil // Overide content with custom strings.xml url
             )
@@ -68,12 +68,12 @@ public class SDKWrapper {
             )
         case .eligibility:
             return EligibilityConfig(
-                privacyPolicy: true,
+                privacyPolicy: false,
                 assessments: tradeInAssessments
             )
         case .eligibilityPeer:
             return EligibilityPeerConfig(
-                privacyPolicy: true
+                privacyPolicy: false
             )
         }
     }

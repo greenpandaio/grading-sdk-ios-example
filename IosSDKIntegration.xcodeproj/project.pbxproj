@@ -16,7 +16,7 @@
 		2AD0687E2A3B24D400F4BCAB /* IosSDKIntegrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD0687D2A3B24D400F4BCAB /* IosSDKIntegrationUITests.swift */; };
 		2AD068802A3B24D500F4BCAB /* IosSDKIntegrationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD0687F2A3B24D500F4BCAB /* IosSDKIntegrationUITestsLaunchTests.swift */; };
 		2AE60A932CDA19DE0087A443 /* SDKWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE60A922CDA19DE0087A443 /* SDKWrapper.swift */; };
-		2AE60A972CDA637E0087A443 /* PandasGradingSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2AE60A962CDA637E0087A443 /* PandasGradingSDK.bundle */; };
+		2AE60A9B2CDA7E1D0087A443 /* PandasGradingSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2AE60A9A2CDA7E1D0087A443 /* PandasGradingSDK.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,7 @@
 		2AD0687D2A3B24D400F4BCAB /* IosSDKIntegrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IosSDKIntegrationUITests.swift; sourceTree = "<group>"; };
 		2AD0687F2A3B24D500F4BCAB /* IosSDKIntegrationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IosSDKIntegrationUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2AE60A922CDA19DE0087A443 /* SDKWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKWrapper.swift; sourceTree = "<group>"; };
-		2AE60A962CDA637E0087A443 /* PandasGradingSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PandasGradingSDK.bundle; sourceTree = "<group>"; };
+		2AE60A9A2CDA7E1D0087A443 /* PandasGradingSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PandasGradingSDK.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +110,7 @@
 		2AD068612A3B24D300F4BCAB /* IosSDKIntegration */ = {
 			isa = PBXGroup;
 			children = (
-				2AE60A962CDA637E0087A443 /* PandasGradingSDK.bundle */,
+				2AE60A9A2CDA7E1D0087A443 /* PandasGradingSDK.bundle */,
 				2A518DC52A3CA5A600A9C2D1 /* Info.plist */,
 				2A518DC42A3CA38600A9C2D1 /* IosSDKIntegration.entitlements */,
 				2AD068622A3B24D300F4BCAB /* IosSDKIntegrationApp.swift */,
@@ -258,7 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AD0686A2A3B24D400F4BCAB /* Preview Assets.xcassets in Resources */,
-				2AE60A972CDA637E0087A443 /* PandasGradingSDK.bundle in Resources */,
+				2AE60A9B2CDA7E1D0087A443 /* PandasGradingSDK.bundle in Resources */,
 				2AD068672A3B24D400F4BCAB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
