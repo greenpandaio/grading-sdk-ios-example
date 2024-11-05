@@ -1,123 +1,188 @@
-# Using the Pandas Grading SDK
+#Pandas Grading SDK
 
-## iOS Project Requirements
+### iOS Project Requirements
 
 Deployment target: iOS 12
 Swift version: 5.0
 
-### Privacy usage descriptions
-
-The grading flow needs permission for certain device capabilities.
-Therefore the app needs to include in the `Info.plist` file the following items:
-- Privacy - Camera Usage Description
-- Privacy - Face ID Usage Description
-- Privacy - Location When In Use Usage Description
-- Privacy - Microphone Usage Description
-
 ## Installing the library
+
 ### Swift Package Manager
+
 In the project's Package Dependencies add a new dependency for url https://github.com/greenpandaio/grading-sdk-ios-spm and set the desired version.
 
-After the PandasGradingSDK package is fetched, drag and drop the PandasGradingSDK.bundle from the package contents folder to the project root  checking "Copy items if needed".
+After the PandasGradingSDK package is fetched, drag and drop the PandasGradingSDK.bundle from the package contents folder to the project root checking "Copy items if needed".
 Then include it in the project's target(Project settings -> targets -> Frameworks, Libraries & Embedded Content -> Add PandasGradingSDK).
-
 
 For the CocoaPods legacy installation refer to [the cocoa pod installation instructions](CocoaPodsInstall.md)
 
 ## Configuring the SDK
 
-Before starting the SDK you need to call the `configure` public method of `PandasGrading` shared instance
-Having a configuration file (config.json or any other name) is mandatory and should be bundled along with your app's assets.
+A complete example wrapper class which integrates the SDK can be found [here](/IosSDKIntegration/SDKWrapper.swift)
 
-colorConfig , fontConfig , stringsURL are optional and should be provided if you want to override the default values.
+### Construct your basic configuration object:
 
-**Sample**
+```swift
+        let gradingSDKConfig = GradingSDKConfig(
+            environment: .staging,
+            partner: Partner(
+                id: "eb7c5e49-a4af-4426-93e4-4d1dd800b9ad",
+                name: "pandas",
+                code: "pandas"
+            ),
+            theme: Theme(
+                colors: ThemeColors(
+                    mainColor: "#222222"
+                ),
+                fonts: ThemeFonts( // UIFont supported font family
+                    primary: "Helvetica",
+                    secondary: "Helvetica"
+                                 ),
+                customStrings: nil // Optional Override content with custom strings.xml url
+            )
+        )
 
 ```
-PandasGrading.shared.configure(imei: imei,
-                               environment: .staging,
-                               colorConfig: nil,
-                               fontConfig: nil,
-                               stringsURL: Bundle.main.url(forResource: "Strings-en", withExtension: "xml"),
-                               configURL: Bundle.main.url(forResource: "config", withExtension: "json"))
 
+Before starting the SDK you need to call the `configure` public method of `PandasGrading` shared instance with the corresponding configuration object:
+
+```swift
+PandasGrading.shared.configure(sdkConfig: gradingSDKConfig)
 ```
-
-### IMEI
-
-If the imei number of the device is known, it can be passed in the configure method, using the `imei` parameter.
 
 ### Environment configuration
 
-The environment can be set with the `environment` parameter, setting the desired case `.staging` or `.production`. 
+The environment can be set with the `environment` parameter. `.staging`,`.uat` or `.production`.
+Note: When `.staging` is set, all cosmetic evaluation tests will result in dummy successfull responses.
 
-### Grading flow configuration
+## Using the SDK
 
-The grading flow configuration is set using the `configURL` parameter, which is the bundle URL containing the json file with the configuration parameters. 
+### Create a per flow configuration.
 
-The config properties are:
-- partner - An object containing the name, flow, country, code, storeLocationsURL and id of the partner
-- assessments - An array containing the device tests for grading
-- payment_options - An object containing info about the payment options
-- colors - An object containing the primary color setting
-- email_submission - A boolean indicating if the send quote via email screen should be displayed
-- drop_off_options - The dropoff options for the flow
-- tutorial - A boolean indicating if the tutorial screen should be displayed
-- impact - A boolean indicating if the impact screen should be displayed
-- manifesto - A boolean indicating if the manifesto screen should be displayed
-- our_story - A boolean indicating if our story screen should be displayed
-- faq - A boolean indicating if the FAQ screen should be displayed
-- contact_us - A boolean indicating if the contact us screen should be displayed
-- contact_us_email - The URL of the API endpoint where the contact form will be submitted
-- social_media - An object containg social media URLs
+The SDK supports the following flows:
 
-**Sample**
+- `FlowConfigBase.TradeInConfig.TradeInConfigHome(params explained below)` - Evaluates the device for trade in from home
 
-The config.json should have the following format.
+- `FlowConfigBase.TradeInConfig.TradeInConfigStore(params explained below)` - Evaluates the device for trade in at a store
+
+- `FlowConfigBase.EligibilityConfig(params explained below)` - Evaluates the current device for warranty eligibility'
+
+- `FlowConfigBase.EligibilityPeerConfig(params explained below)` - Evaluates another device for warranty eligibility
+
+### Start a device assessment flow
+
+The grading flow is started using the `startGrading` function of PandasGrading shared instance.
+
+```swift
+        PandasGrading.shared.startGrading(
+            navigationController: yourUInavigationController //The instance of the calling UINavigationController,
+            flowConfig: flowConfiguration //Your flow configuration(See below),
+            sessionId: sessionId //Optional Session id to resume.,
+            imei: imei //Optional the IMEI of the device for identification and analytics.
+        )
 
 ```
-{
-    "partner": {
-        "name": "your partner name",
-        "storeLocationsURL": "url with your store locations",
-        "id": "your partner id"
-    },
-    "assessments": [
-        "digitizer",
-        "sound-performance",
-        "multitouch",
-        "face-id",
-        "device-motion",
-        "front-camera",
-        "back-camera"
-    ],
-    "colors": { "primary": "#1A1A1A" },
-    "email_submission": true,
-    "drop_off_options": ["AT_STORE", "COURIER_AT_STORE"],
-    "tutorial": true,
-    "impact": true,
-    "manifesto": true,
-    "our_story": true,
-    "faq": true,
-    "contact_us": true,
-    "contact_us_email": "https://hook.eu1.make.com/ee2twfux18a5pg1ei7n0kkzmd4h4agrz",
-    "social_media": {
-        "instagram": "https://www.instagram.com/pandas.io/",
-        "facebook": "https://www.facebook.com/pandasHQ/",
-        "youtube": "https://www.youtube.com/channel/UCZlgTN_61nkmUTS9LLi9yEg/",
-        "tiktok": "https://www.tiktok.com/@pandas_io/",
-        "linkedin": "https://www.linkedin.com/company/wearepandas/"
-    },
+
+### Available flow configurations
+
+#### Eligibility
+
+Evaluates the current device for warranty eligibility
+
+##### Define an ordered list of assessments(tests) that need to be performed.
+
+```swift
+        let tradeInAssessments: [GradingTest] = [
+            .cosmeticGrading,
+            .digitizer,
+            .soundPerformance,
+        ]
+            flowConfiguration =  EligibilityConfig(
+                privacyPolicy: true, // Toggles privacy policy consent screen
+                assessments: tradeInAssessments // Configures the tests that are going to be performed.
+            )
+```
+
+#### EligibilityPeer
+
+Evaluates another device for warranty eligibility
+
+```swift
+            flowConfiguration =  EligibilityPeerConfig(
+                privacyPolicy: true // Toggles privacy policy consent screen
+            )
+```
+
+#### Eligibility flows - Results output
+
+The eligibility flow completion handling is done by implementing the PandasGradingDelegate protocol. The instance of the class implementing the protocol must be set on the PandasGrading shared instance delegate property. The protocol contains a method which provides an EligibilityFlowResult parameter, which can have the following values: success, failed or skipped as well as the session id.
+
+`public protocol PandasGradingDelegate: AnyObject {
+    func eligibilityFlowEnded(result: EligibilityFlowResult)
+}`
+
+for example
+
+```swift
+extension AppDelegate: PandasGradingDelegate {
+    func eligibilityFlowEnded(sessionId: String,
+                              result: EligibilityFlowResult) {
+        print("\n\neligibility flow for session: \(sessionId), ended with result: \(result)\n\n")
+    }
 }
-
-
 ```
 
-### Strings
+### TradeInAtHome - TradeInAtStore
 
-The strings .xml file should be provided using the stringsURL parameter which is the local URL of the strings file. Example file :
-[pandas-sdk-strings.xml](/ConfigAssets/Strings-en.xml)
+##### Define an ordered list of assessments(tests) that need to be performed.
 
+```swift
+        let tradeInAssessments: [GradingTest] = [
+            .cosmeticGrading,
+            .digitizer,
+            .soundPerformance,
+            .multitouch,
+            .deviceMotion,
+            .biometrics,
+            .frontCamera,
+            .backCamera
+        ]
+```
+
+##### (Home flow only) Define the available device drop off options
+
+```swift
+let tradeInDropOffOptions: [DropOffOption] = [.atStore, .courierAtStore]
+```
+
+##### Initialise a TradeInConfigHome or TradeInConfigStore object
+
+```swift
+            flowConfiguration = TradeInConfig(
+                flowType: .home,
+                privacyPolicy: false, // Toggles privacy policy consent screen
+                assessments: tradeInAssessments,// Configures the tests that are going to be performed.
+                emailSubmission: false, //Requires user email to display the offer
+                dropOffOptions: tradeInDropOffOptions, // Configures which drop off options are available for trade in.
+                storeLocationsUrl: tradeInLocationsUrl //Loads the store locations webpage url in a webview
+            )
+```
+
+### Privacy usage descriptions
+
+Depending on the assessments that are going to be configured, the SDK needs permission for certain device capabilities.
+Therefore the app needs to include in the `Info.plist` file the following items:
+
+- Privacy - Camera Usage Description (Camera tests)
+- Privacy - Face ID Usage Description (Biometrics tests)
+- Privacy - Location When In Use Usage Description (TradeInFromHome flow)
+- Privacy - Microphone Usage Description (Sound test)
+
+In case any of theese tests are not configured, the corresponding permissions are not required.
+
+## Extended configuration.
+
+colorConfig , fontConfig , stringsURL are optional and should be provided if you want to override the default values.
 
 ### Color scheme
 
@@ -155,27 +220,13 @@ let colorConfig = ColorConfig(shadow: UIColor(hex: "#F5F5F5"),
 
 ```
 
-### Font scheme
-
-The font scheme is updated by providing a `FontConfig` object containing the font family name for primary, secondary and tertiary, and an array of the font file names.
-The fontFileNames parameter is optional if the fonts are already registered for use.
-
-**Sample**
-
-```
-let fontConfig = FontConfig(primary: "Open Sans",
-                            secondary: "Source Sans",
-                            tertiary: "Trebuchet",
-                            fontFileNames: ["OpenSansRegular.tff", OpenSansMedium.ttf"])
-```
-
-### Media items customizations
+### Media items customisations
 
 There are two kinds of media item types: images and animations
 
 #### Images
 
-The images can be customized by setting in the app's main bundle (e.g. Assets folder) images with same name as the images you want to override.
+The images can be customised by setting in the app's main bundle (e.g. Assets folder) images with same name as the images you want to override.
 
 The image names are described in the enum below:
 
@@ -270,7 +321,7 @@ enum ImageItem: String {
     case warningCircleIcon = "warning-circle-icon"
     case warningIcon = "warning-icon"
     case worksOkIcon = "works-ok-icon"
-    
+
 }
 ```
 
@@ -289,35 +340,5 @@ enum AnimationItem: String {
     case tutorial1 = "carousel-trade-in.mp4"
     case tutorial2 = "carousel-evaluation.mp4"
     case tutorial3 = "carousel-dropoff.mp4"
-}
-```
-
-## Using the SDK
-
-The grading flow is started using the `startGrading` function of PandasGrading shared instance. The function parameter is an instance of UINavigationController which the SDK will use for navigating through the flow.
-The navigation controller is to be presented immediately after the call to the `startGrading` func.
-
-**Sample**
-
-```
-PandasGrading.shared.startGrading(navigationController: gradingNavigationController)
-gradingNavigationController.modalPresentationStyle = .overFullScreen
-present(gradingNavigationController, animated: true)
-```
-
-## Eligibility flow - Results output
-The the eligibility flow completion handling is done by implementing the PandasGradingDelegate protocol. The instance of the class implementing the protocol must be set on the PandasGrading shared instance delegate property. The protocol contains a method which provides an EligibilityFlowResult parameter, which can have the following values: success, failed or skipped.
-
-`public protocol PandasGradingDelegate: AnyObject {
-    func eligibilityFlowEnded(result: EligibilityFlowResult)
-}`
-
-for example
-
-```
-class PandasIntegration: PandasGradingDelegate {
-    func eligibilityFlowEnded(result: EligibilityFlowResult) {
-        print("\n\neligibility flow ended with result: \(result)\n\n")
-    }
 }
 ```

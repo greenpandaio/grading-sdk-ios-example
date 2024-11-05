@@ -19,22 +19,41 @@
         <evaluation_skiped>Evaluation skiped</evaluation_skiped>
         <whats_next>What&#x27;s next?</whats_next>
         <invalid_phonenumber>Please type a valid phone number</invalid_phonenumber>
-        <privacy>We will never share recordings taken from your device. Your data is safe and private.</privacy>
+        <privacy>We don't store or share any images taken from your device. Your data is safe and private.</privacy>
     </common>
+    <errors>
+        <connection>
+            <title>No internet connection</title>
+            <subtitle>Please check your connection and try again</subtitle>
+            <button>Try Again</button>
+        </connection>
+        <network_error>
+            <title>Something went wrong</title>
+            <subtitle>Please try again</subtitle>
+            <button>Try Again</button>
+        </network_error>
+        <session_expired>
+            <title>Session has timed out</title>
+            <subtitle>Please try again</subtitle>
+            <button>Try Again</button>
+        </session_expired>
+    </errors>
     <start_page>
         <title>&lt;span&gt;Trade in.&lt;/span&gt;&lt;br /&gt;Save money.&lt;br /&gt;Do good.</title>
         <more>More</more>
     </start_page>
     <screen_test_page>
-        <evaluate_title>Screen</evaluate_title>
-        <evaluate_description>Check the digitizer, multitouch gestures and LCD condition of your device.</evaluate_description>
-        <check_screen>Check Screen</check_screen>
+        <evaluate_title>Touch screen test</evaluate_title>
+        <evaluate_description>Let's make sure your touch screen is working properly.</evaluate_description>
+        <check_screen>Check touch screen</check_screen>
     </screen_test_page>
     <agreements>
         <caption>Before you continue</caption>
-        <title>We respect your personal data.</title>
-        <subtitle>Please review and accept the Privacy Policy and Terms so that we can proceed with the device evaluation.</subtitle>
-        <start>Start new evaluation</start>
+        <title>We value your privacy</title>
+        <subtitle>To enroll in device protection, we’ll collect data and use your camera to assess your device's condition. No personal information, including any images used for evaluation, will be collected or stored.
+            
+Please review and accept the terms below to proceed.</subtitle>
+        <start>Start evaluation</start>
         <agree>I agree to the </agree>
         <privacy_policy_link>Privacy Policy Terms</privacy_policy_link>
         <terms_link>Terms and Conditions</terms_link>
@@ -44,27 +63,44 @@
         <description>A member of the Pandas team will get back to you shortly.</description>
         <primary_button>Back to home</primary_button>
     </thank_you_page>
-    <mirror_what_you_need>
-        <subtitle>Before we start.</subtitle>
+    <cosmetic_d2d_what_you_need>
+        <subtitle>Before you start</subtitle>
         <title>What you will need</title>
         <list_item_1>
-            <title>Remove your device from the case</title>
+            <title>Remove the case from the device you want to evaluate.</title>
         </list_item_1>
         <list_item_2>
-            <title>Stand in front of a mirror</title>
+            <title>Find a well-lit spot</title>
         </list_item_2>
         <list_item_3>
-            <title>Allow access to your camera</title>
+            <title>Make sure your secondary device has access to data or wi-fi.</title>
         </list_item_3>
-        <list_item_4>
-            <title>Tap the capture button</title>
-        </list_item_4>
-        <list_item_5>
-            <title>Wait 3 seconds and stand still</title>
-        </list_item_5>
-        <list_item_6>
-            <title>Check the photo you have captured. Is it bright and in focus?</title>
-        </list_item_6>
+    </cosmetic_d2d_what_you_need>
+    <peer_cosmetic_what_you_need>
+        <subtitle>Before you start</subtitle>
+        <title>What you will need</title>
+        <list_item_1>
+            <title>Remove the case from the device you want to evaluate.</title>
+        </list_item_1>
+        <list_item_2>
+            <title>Find a well-lit spot</title>
+        </list_item_2>
+        <list_item_3>
+            <title>Make sure your secondary device has access to data or wi-fi.</title>
+        </list_item_3>
+    </peer_cosmetic_what_you_need>
+    <mirror_what_you_need>
+        <subtitle>Before you start</subtitle>
+        <title>What you will need</title>
+        <list_item_1>
+            <title>Remove your device from its case.</title>
+        </list_item_1>
+        <list_item_2>
+            <title>Stand in front of a mirror.</title>
+        </list_item_2>
+        <list_item_3>
+            <title>Make sure the area is well-lit.</title>
+        </list_item_3>
     </mirror_what_you_need>
     <what_you_need_page>
         <subtitle>Before we start.</subtitle>
@@ -89,6 +125,19 @@
         <footer_text>We respect your personal information.&lt;br/&gt;Read our </footer_text>
         <privacy_policy_link>Privacy Policy</privacy_policy_link>
     </what_you_need_page>
+    <resume>
+        <title>Resume device test</title>
+        <subtitle>Add device protection</subtitle>
+        <deadline>Finish your evaluation until </deadline>
+        <tests>
+            <cosmetic_grading>Front and back check</cosmetic_grading>
+            <screen>Touch screen check</screen>
+            <sound>Sound check</sound>
+            <functional>Functional tests</functional>
+        </tests>
+        <passed>Passed</passed>
+        <paused>Paused</paused>
+    </resume>
     <box_edges_guard>Too close to the edges.</box_edges_guard>
     <wrong_edge_left>Move phone a bit to the left</wrong_edge_left>
     <wrong_edge_right>Move phone a bit to the right</wrong_edge_right>
@@ -108,20 +157,23 @@
     </front_camera_page>
     <allow_camera_page>
         <title>Allow camera access</title>
-        <description>Access is required to take photos in order to assess the quality of your cameras.</description>
+        <description>Access is needed to capture images and evaluate the condition of your device.</description>
         <deny_alert>
             <title>Not allowing access to your camera will terminate the evaluation</title>
             <description>You need to complete evaluation to get the device protection plan</description>
         </deny_alert>
+        <retry_alert>
+            <title>Allow %@ to access your camera</title>
+            <message>Required to capture images and test the condition of your device.</message>
+            <action>Open settings</action>
+        </retry_alert>
     </allow_camera_page>
     <image_preview_page>
-        <heading>Is the phone completely visible and in-focus?</heading>
+        <heading>Is the phone completely visible and in focus?</heading>
         <tooltip_message>Make sure the photo is clear and not blurred so we can evaluate the cosmetic condition of your phone fairly. Otherwise, you may run the risk of getting a lower offer.</tooltip_message>
         <tooltip_alt>info</tooltip_alt>
         <save>Yes</save>
-        <retake>No, retake photo</retake>
-        <f_camera_alt>Preview for front camera</f_camera_alt>
-        <b_camera_alt>Preview for back camera</b_camera_alt>
+        <retake>No, retake</retake>
     </image_preview_page>
     <test_camera_page>
         <modal>
@@ -149,16 +201,14 @@
     </back_camera_page>
     <mirror_camera_page>
         <primary_button>Take photo</primary_button>
-        <capturing_button>Taking photo...</capturing_button>
+        <capturing_button>Taking photo</capturing_button>
         <front>
-            <title>Capture Front</title>
-            <description>Take a clear photo of your old
-                device's front side, no finger cover.</description>
+            <title>Capture the front</title>
+            <description>Face the front of your device toward the mirror and take a clear image.</description>
         </front>
         <back>
-            <title>Capture Back</title>
-            <description>Take a clear photo of your old
-                device's back side, no finger cover.</description>
+            <title>Capture the back</title>
+            <description>Face the front of your device toward the mirror and take a clear image.</description>
         </back>
     </mirror_camera_page>
     <test_back_camera_page>
@@ -184,7 +234,7 @@
         </skip_modal>
         <skip_modal_title>Are you sure your touch screen doesn&#x27;t work?</skip_modal_title>
         <evaluate_title>Digitizer</evaluate_title>
-        <evaluate_description>Check the touch functionality of your screen.</evaluate_description>
+        <evaluate_description>Check the digitizer condition of your device</evaluate_description>
         <check_digitizer>Check digitizer</check_digitizer>
         <footer_message>My touch screen is not fully functional</footer_message>
     </digitizer_page>
@@ -232,15 +282,24 @@
     </test_multitouch_page>
     <sound_performance_page>
         <skip_modal_title>Are you sure your microphone doesn&#x27;t work?</skip_modal_title>
-        <evaluate_title>Sound performance</evaluate_title>
-        <evaluate_description>Unmute your phone and set volume &lt;strong&gt;to 100%.&lt;/strong&gt;&lt;br /&gt;&lt;strong&gt;Remember to stay in a quiet place.&lt;/strong&gt;</evaluate_description>
-        <check_sound>Check sound performance</check_sound>
+        <evaluate_title>Sound test</evaluate_title>
+        <evaluate_description>Let's make sure your microphone and speakers are working properly.</evaluate_description>
+        <check_sound>Check sound</check_sound>
         <footer_message>My microphone doesn&#x27;t work</footer_message>
     </sound_performance_page>
     <allow_microphone_page>
         <title>Allow microphone access</title>
-        <description>Required to record audio in order to assess the quality of your microphone.</description>
-        <privacy_message>We will never share recordings taken from your device. Your data are safe and private.</privacy_message>
+        <description>Access is needed to evaluate the sound quality of your device.</description>
+        <privacy_message>We don't store or share any audio from your device. Your data is safe and private.</privacy_message>
+        <deny_alert>
+            <title>Not allowing access to your microphone will terminate the evaluation</title>
+            <description>You need to complete evaluation to get the device protection plan</description>
+        </deny_alert>
+        <retry_alert>
+            <title>Allow %@ to access your microphone</title>
+            <message>Required to test the sound quality of your device.</message>
+            <action>Open settings</action>
+        </retry_alert>
     </allow_microphone_page>
     <test_sound_performance_page>
         <skip_modal>
@@ -265,8 +324,9 @@
         </not_working_modal>
         <content_volume_up>
             <alt_img>Volume up</alt_img>
-            <title>Turn &lt;span&gt;the volume to 100%&lt;/span&gt;</title>
-            <description>&lt;span&gt;be sure you are in a quiet place and tap &quot;Start&quot;&lt;/span&gt;.</description>
+            <title>Turn the volume up to 100%</title>
+            <description>Make sure you're in a quiet place,
+then tap 'Start'.</description>
         </content_volume_up>
         <content_volume_down>
             <alt_img>Volume down</alt_img>
@@ -274,6 +334,7 @@
             <description></description>
         </content_volume_down>
         <already_button>Start</already_button>
+        <checking>Checking sound</checking>
     </test_sound_performance_page>
     <face_id_page>
         <skip_modal_title>Are you sure your Face ID doesn&#x27;t work?</skip_modal_title>
@@ -466,15 +527,35 @@
         </slide_4>
         <button>Start now!</button>
     </mirror_walkthrough_page>
+    <peer_qr_cosmetic>
+        <title>Scan the QR code with your secondary device</title>
+        <subtitle>We’ll use your secondary device’s camera to take a quick look at the condition of this device.</subtitle>
+    </peer_qr_cosmetic>
+    <peer_qr_functional>
+        <title>Scan the QR code with your secondary device</title>
+        <subtitle>We’ll use your secondary device’s camera to take a quick look at the condition of this device.</subtitle>
+    </peer_qr_functional>
+    <peer_cosmetic_condition_page>
+        <title>Use another device</title>
+        <description>Let's check the device you want to enroll in protection using a secondary device to capture images of the front and back.</description>
+        <button>Get started</button>
+    </peer_cosmetic_condition_page>
     <cosmetic_condition_page>
-        <title>Front and back side condition</title>
-        <description>Check the front and back condition of your device, using a mirror.</description>
-        <button>Start now</button>
+        <title>Use a mirror</title>
+        <description>Let's check the device you want to enroll in protection using a mirror to capture images of the front and back.</description>
+        <button>Get started</button>
     </cosmetic_condition_page>
+    <cosmetic_d2d_condition_page>
+        <title>Use another device</title>
+        <description>Let's check the device you want to enroll in protection using a secondary device to capture images of the front and back.</description>
+        <button>Get started</button>
+    </cosmetic_d2d_condition_page>
     <cosmetic_condition_test>
-        <checking>We are evaluating  your photos</checking>
+        <checking>We're reviewing your images...</checking>
         <button_retake>Retake photos</button_retake>
-        <error_title>We cannot use your photos for grading, please retake cleaner photos</error_title>
+        <error_title>Unfortunately, we couldn't use your images for evaluation</error_title>
+        <error_reason>Reason</error_reason>
+        <error_subtitle>Please retake the photos in a well-lit area. Remember to remove the case and ensure the images are focused and centered.</error_subtitle>
         <errors>
             <photos-error>Something is wrong with the photos</photos-error>
             <align-phone>Align the Phone</align-phone>
@@ -485,7 +566,16 @@
             <turn-on-screen>Turn on the Screen</turn-on-screen>
             <remove-cover>Remove Cover</remove-cover>
             <remove-film>Remove Film</remove-film>
+            <out-of-focus>Please ensure the photo of the device is clear and in focus.</out-of-focus>
+            <brightness>Please capture device photo in brighter environment.</brightness>
+            <device-not-visible>Please ensure the device is clearly visible on the captured photo</device-not-visible>
+            <accessories>Please remove visible stickers and/or damaged screen protectors/covers</accessories>
+            <device-holding>Please ensure your hands do not cover the front screen of the device.</device-holding>
         </errors>
+        <finished>
+            <title>Evaluation completed</title>
+            <subtitle>Tap continue to start the functional tests</subtitle>
+        </finished>
     </cosmetic_condition_test>
     <front_condition_page>
         <title>Front Condition</title>
@@ -507,20 +597,28 @@
             </no>
         </answers>
     </device_turns_on>
+    <cosmetic_options>
+        <title>Choose how to check the condition of your device</title>
+        <subtitle>To enroll your device in protection, we need to confirm its condition. You'll capture images of the front and back of the device to check for any damage.</subtitle>
+        <mirror>
+            <title>Use a mirror</title>
+        </mirror>
+        <other_device>
+            <title>Use another device</title>
+        </other_device>
+    </cosmetic_options>
     <eligibility_decision>
         <checking>Checking device eligibility</checking>
         <success>
-            <caption>Device protection</caption>
-            <title>Congratulations!</title>
-            <description>This device is eligible for device protection</description>
-            <button_action>Complete Enrollment</button_action>
-            <button_skip>Complete later</button_skip>
+            <description>Great news!
+Your device is eligible for protection.</description>
+            <button_primary>Continue</button_primary>
         </success>
         <failure>
-            <caption>Device protection</caption>
-            <title>Unfortunately</title>
-            <description>This device is not eligible for device protection</description>
-            <button_action>Return to homescreen</button_action>
+            <description>Unfortunately this device is not eligible for device protection</description>
+            <reason>We found an issue with the %@ during the evaluation.</reason>
+            <button_primary>Exit</button_primary>
+            <button_secondary>Retry</button_secondary>
         </failure>
     </eligibility_decision>
     <lcd_condition>
@@ -581,9 +679,9 @@
     <success_messages>
         <front_camera>Bravo!</front_camera>
         <back_camera>Great!</back_camera>
-        <digitizer>Amazing!</digitizer>
+        <digitizer>Touch screen check complete!</digitizer>
         <multitouch>Beautiful!</multitouch>
-        <sound>Sounds good!</sound>
+        <sound>Sound test complete</sound>
         <face_id>Beautiful!</face_id>
         <device_motion>Amazing!</device_motion>
         <device_condition>Thanks</device_condition>
@@ -595,4 +693,14 @@
         <input_email>E-mail</input_email>
         <input_phone>Phone</input_phone>
     </personal_info_page>
+    <grading_errors>
+        <grader-front-cosmetics>Front cosmetics</grader-front-cosmetics>
+        <grader-back-cosmetics>Back cosmetics</grader-back-cosmetics>
+        <grader-body-frame-cosmetics>Body frame cosmetics</grader-body-frame-cosmetics>
+        <grader-camera-cosmetics>Camera cosmetics</grader-camera-cosmetics>
+        <grader-lcd-condition>LCD condition</grader-lcd-condition>
+        <digitizer>Screen</digitizer>
+        <sound-performance>Audio</sound-performance>
+        
+    </grading_errors>
 </root>

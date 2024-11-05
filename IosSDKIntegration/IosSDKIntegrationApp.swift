@@ -11,16 +11,11 @@ import PandasGradingSDK
 struct IosSDKIntegrationApp: App {
     
     var pandasIntegration = PandasIntegration()
-    
     init() {
         configureGradingSDK()
     }
     
     func configureGradingSDK() {
-        PandasGrading.shared.configure(imei:nil, environment : .staging ,colorConfig: nil,
-                                       fontConfig: nil,
-                                       stringsURL: Bundle.main.url(forResource: "Strings-en", withExtension: "xml"),
-                                       configURL: Bundle.main.url(forResource: "config", withExtension: "json"))
         PandasGrading.shared.delegate = pandasIntegration
     }
     
@@ -71,7 +66,7 @@ struct IosSDKIntegrationApp: App {
 }
 
 class PandasIntegration: PandasGradingDelegate {
-    func eligibilityFlowEnded(result: EligibilityFlowResult) {
-        print("\n\neligibility flow ended with result: \(result)\n\n")
-    }
-}
+    func eligibilityFlowEnded(sessionId: String,
+                              result: EligibilityFlowResult) {
+        print("\n\neligibility flow for session: \(sessionId), ended with result: \(result)\n\n")
+    }}

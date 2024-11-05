@@ -37,10 +37,8 @@ struct SDKView: UIViewControllerRepresentable {
     func makeUIViewController(context: Context) -> UINavigationController {
 
         let gradingNavigationController = GradingNavigationViewController()
-
-        PandasGrading.shared.startGrading(navigationController: gradingNavigationController,
-                                          gradingFlow: flow,
-                                          sessionId: sessionId)
+        var sdkWrapper = SDKWrapper(appContext: gradingNavigationController)
+        sdkWrapper.startFlow(flowType: flow, sessionId: sessionId,imei: nil);
         gradingNavigationController.modalPresentationStyle = .overFullScreen
 
         return gradingNavigationController
