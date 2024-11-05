@@ -3,8 +3,10 @@
     <common>
         <start>Start</start>
         <resume_evaluation>No, resume evaluation</resume_evaluation>
-        <exit_evaluation>Exit evaluation</exit_evaluation>
-        <evaluation_warning>You need to complete evaluation to get a trade in offer for your device. However, If you wish to continue evaluation later, your progress will be saved.</evaluation_warning>
+        <resume>Resume</resume>
+        <exit>Exit</exit>
+        <exit_evaluation>Exit Evaluation?</exit_evaluation>
+        <evaluation_warning>You must complete device evaluation to enroll in device protection. Your progress will be saved for %d minutes.</evaluation_warning>
         <offer_warning>You can continue, but your&lt;br /&gt;offer will be lower.</offer_warning>
         <cancel>Cancel</cancel>
         <continue>Continue</continue>

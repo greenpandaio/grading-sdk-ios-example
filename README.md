@@ -34,13 +34,17 @@ A complete example wrapper class which integrates the SDK can be found [here](/I
                 colors: ThemeColors(
                     mainColor: "#222222"
                 ),
+                images: ThemeImages(
+                    splashScreen: UIImage(named: "splash-screen1"),
+                    digitizer: UIImage(named: "splash-screen1"),
+                    qrLogo: nil
+                ),
                 fonts: ThemeFonts( // UIFont supported font family
                     primary: "Helvetica",
                     secondary: "Helvetica"
                                  ),
-                customStrings: nil // Optional Override content with custom strings.xml url
+                customStrings: nil // Overide content with custom strings.xml url
             )
-        )
 
 ```
 

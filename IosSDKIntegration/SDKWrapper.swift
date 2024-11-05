@@ -18,6 +18,11 @@ public class SDKWrapper {
                 colors: ThemeColors(
                     mainColor: "#222222"
                 ),
+                images: ThemeImages(
+                    splashScreen: UIImage(named: "splash-screen"),
+                    digitizer: UIImage(named: "digitizer-test-image"),
+                    qrLogo: UIImage(named: "AppIcon")
+                ),
                 fonts: ThemeFonts( // UIFont supported font family
                     primary: "Helvetica",
                     secondary: "Helvetica"

@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/greenpandaio/grading-sdk-ios-spm",
       "state" : {
-        "revision" : "0399dd8fc4b9134cab75655e4bb7179f323a172c",
-        "version" : "1.7.1"
+        "revision" : "40b8fa917d88a15ccbcc1206bc46b9c413a4d85a",
+        "version" : "1.8.0"
       }
     }
   ],
